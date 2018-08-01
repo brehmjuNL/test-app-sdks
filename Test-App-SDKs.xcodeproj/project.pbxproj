@@ -13,6 +13,9 @@
 		0728855F2111DDFD00B99FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0728855E2111DDFD00B99FB9 /* Assets.xcassets */; };
 		072885622111DDFD00B99FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072885602111DDFD00B99FB9 /* LaunchScreen.storyboard */; };
 		0728856D2111DDFD00B99FB9 /* Test_App_SDKsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0728856C2111DDFD00B99FB9 /* Test_App_SDKsUITests.swift */; };
+		072885782111DEB800B99FB9 /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072885772111DEB800B99FB9 /* BannerAd.swift */; };
+		073A7CA12111E14000218DA8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A7CA02111E14000218DA8 /* ViewController2.swift */; };
+		073A7CA32111E3C800218DA8 /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A7CA22111E3C800218DA8 /* Privacy.swift */; };
 		64ECE55776DEF3E40DEE8F98 /* Pods_Test_App_SDKsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0CF9DAF10233CEC16AD06E /* Pods_Test_App_SDKsUITests.framework */; };
 		F6130CBAE1C5CA44F8027DA6 /* Pods_Test_App_SDKs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AD7BAE82E7AB809B19DB2F /* Pods_Test_App_SDKs.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +41,9 @@
 		072885682111DDFD00B99FB9 /* Test-App-SDKsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-App-SDKsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0728856C2111DDFD00B99FB9 /* Test_App_SDKsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_App_SDKsUITests.swift; sourceTree = "<group>"; };
 		0728856E2111DDFD00B99FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072885772111DEB800B99FB9 /* BannerAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		073A7CA02111E14000218DA8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		073A7CA22111E3C800218DA8 /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
 		25AD7BAE82E7AB809B19DB2F /* Pods_Test_App_SDKs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_App_SDKs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DE5289E6DFE0E5B22DFCA6 /* Pods-Test-App-SDKsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-App-SDKsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test-App-SDKsUITests/Pods-Test-App-SDKsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A0CF9DAF10233CEC16AD06E /* Pods_Test_App_SDKsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_App_SDKsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,8 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				072885562111DDFC00B99FB9 /* Test-App-SDKs */,
-				0728856B2111DDFD00B99FB9 /* Test-App-SDKsUITests */,
 				072885552111DDFC00B99FB9 /* Products */,
+				0728856B2111DDFD00B99FB9 /* Test-App-SDKsUITests */,
 				F604A78E82D2B992816DA00A /* Pods */,
 				001051B93E773F6C0BEFDD96 /* Frameworks */,
 			);
@@ -100,6 +106,9 @@
 			children = (
 				072885572111DDFC00B99FB9 /* AppDelegate.swift */,
 				072885592111DDFC00B99FB9 /* ViewController.swift */,
+				073A7CA02111E14000218DA8 /* ViewController2.swift */,
+				073A7CA22111E3C800218DA8 /* Privacy.swift */,
+				072885772111DEB800B99FB9 /* BannerAd.swift */,
 				0728855B2111DDFC00B99FB9 /* Main.storyboard */,
 				0728855E2111DDFD00B99FB9 /* Assets.xcassets */,
 				072885602111DDFD00B99FB9 /* LaunchScreen.storyboard */,
@@ -292,6 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0728855A2111DDFC00B99FB9 /* ViewController.swift in Sources */,
+				073A7CA32111E3C800218DA8 /* Privacy.swift in Sources */,
+				073A7CA12111E14000218DA8 /* ViewController2.swift in Sources */,
+				072885782111DEB800B99FB9 /* BannerAd.swift in Sources */,
 				072885582111DDFC00B99FB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
