@@ -1,0 +1,52 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - GoogleMobileAdsMediationMoPub (5.2.0.0):
+    - Google-Mobile-Ads-SDK (>= 7.14.0)
+    - mopub-ios-sdk/Core (= 5.2.0)
+  - mopub-ios-sdk/Core (5.2.0)
+  - SmaatoSDK (9.0.2)
+  - SOMMediationSDK (2.1.0):
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationMoPub (~> 5.2.0.0)
+    - SmaatoSDK (~> 9.0.2)
+  - SOMYieldProbeSDK (1.0.0)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - SOMMediationSDK (from `https://github.com/SevenOneMedia/adtec-app-ios-mediation.git`, branch `master`)
+  - SOMYieldProbeSDK (from `https://github.com/SevenOneMedia/adtec-app-ios-yieldprobe.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationMoPub
+    - mopub-ios-sdk
+    - SmaatoSDK
+
+EXTERNAL SOURCES:
+  SOMMediationSDK:
+    :branch: master
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-mediation.git
+  SOMYieldProbeSDK:
+    :branch: master
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-yieldprobe.git
+
+CHECKOUT OPTIONS:
+  SOMMediationSDK:
+    :commit: 7d8655270e5f9898d4ced7e8e8af5ba99743202a
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-mediation.git
+  SOMYieldProbeSDK:
+    :commit: 2ad51aed4728f019b43f9e1acef0026788b514fe
+    :git: https://github.com/SevenOneMedia/adtec-app-ios-yieldprobe.git
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  GoogleMobileAdsMediationMoPub: 1e3b568c80876cb05e67eac71d86dabc074f3682
+  mopub-ios-sdk: 2b14db9b687a8052fdc42f727f9553baac13507b
+  SmaatoSDK: b355c841d41c44a003c0960342991e91ea567dfe
+  SOMMediationSDK: e9e7a825c7ac365974f12fd22d76a7d78974d397
+  SOMYieldProbeSDK: f801f6a77aaef1691a33250502378d6a52f2ad31
+
+PODFILE CHECKSUM: 8292a4fb88efdcae6f6718fe24da764ae52f943e
+
+COCOAPODS: 1.5.3

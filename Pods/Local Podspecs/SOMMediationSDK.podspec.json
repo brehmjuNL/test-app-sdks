@@ -1,0 +1,36 @@
+{
+  "name": "SOMMediationSDK",
+  "version": "2.1.0",
+  "summary": "Mediation SDK for SevenOne Media ad integration.",
+  "description": "This SDK contains custom adapters for DfP display mediation based on the Google Ads SDK.",
+  "homepage": "https://www.sevenonemedia.de",
+  "license": "Apache License, Version 2.0",
+  "authors": {
+    "brehmjuNL": "GITHub"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/SevenOneMedia/adtec-app-ios-mediation.git"
+  },
+  "source_files": [
+    "SOMMediationSDK",
+    "SOMMediationSDK/**/*.swift"
+  ],
+  "ios": {
+    "vendored_frameworks": "DTBiOSSDK.framework"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+
+    ],
+    "SmaatoSDK": [
+      "~> 9.0.2"
+    ],
+    "GoogleMobileAdsMediationMoPub": [
+      "~> 5.2.0.0"
+    ]
+  }
+}

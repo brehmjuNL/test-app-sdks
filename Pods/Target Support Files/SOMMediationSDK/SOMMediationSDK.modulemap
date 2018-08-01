@@ -1,0 +1,6 @@
+framework module SOMMediationSDK {
+  umbrella header "SOMMediationSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

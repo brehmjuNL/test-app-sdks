@@ -1,0 +1,21 @@
+{
+  "name": "SOMYieldProbeSDK",
+  "version": "1.0.0",
+  "summary": "YieldProbe SDK for SevenOne Media ad integration.",
+  "description": "TBD",
+  "homepage": "https://www.sevenonemedia.de",
+  "license": "Apache License, Version 2.0",
+  "authors": {
+    "brehmjuNL": "GITHub"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/SevenOneMedia/adtec-app-ios-yieldprobe.git"
+  },
+  "source_files": [
+    "SOMYieldProbeSDK",
+    "SOMYieldProbeSDK/**/*.swift"
+  ]
+}

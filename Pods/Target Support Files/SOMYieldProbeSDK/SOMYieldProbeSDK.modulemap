@@ -1,0 +1,6 @@
+framework module SOMYieldProbeSDK {
+  umbrella header "SOMYieldProbeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
