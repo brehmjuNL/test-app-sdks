@@ -21,6 +21,7 @@ class Privacy: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        SOMYieldProbe.update()
         npaToggle.isOn = !getNPAValue()
         // Do any additional setup after loading the view.
     }
