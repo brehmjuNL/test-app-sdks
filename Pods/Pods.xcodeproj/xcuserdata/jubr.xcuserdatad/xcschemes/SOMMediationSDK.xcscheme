@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D3F864B3E79363F8C4576C01455BCAE"
+               BlueprintIdentifier = "DD1E66A10AF3470424DFD5FF5188B2CD"
                BlueprintName = "SOMMediationSDK"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "SOMMediationSDK.framework">

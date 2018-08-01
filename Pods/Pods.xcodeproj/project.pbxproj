@@ -35,6 +35,8 @@
 		0B043BF019258BF1BB8B6CBF10450949 /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5802C35E74CECC2E7BB92E5DB8EAF6EC /* MPCloseBtn@2x.png */; };
 		0B43E19943A47065CFB9123AC2FFBC6A /* MPMoPubRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FA62395C3C41D5A92EBFE6603D5FA406 /* MPMoPubRewardedVideoCustomEvent.m */; };
 		0BEFF38701D7ABAC26485FEAC73BCC6E /* MPVASTLinearAd.h in Headers */ = {isa = PBXBuildFile; fileRef = A333D715B07115726D6B1916DC1D5E6F /* MPVASTLinearAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C23E18340065F32696B632921BC3769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
+		0CB635412592EE85FA37EF832D66F760 /* Pods-Test-App-SDKsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 391A1697B69E9DCF7CAC1FFD18C6F233 /* Pods-Test-App-SDKsUITests-dummy.m */; };
 		0CD2EA493CAC4BB53D973C42CED59CD2 /* MPActivityViewControllerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A5ABD62BE46B9FBE811D958E000CA2 /* MPActivityViewControllerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CDD7FD7EF556263DED1B2DEBF74F6C6 /* MPNativeAdRendererSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = B62250CA39B1848FC5C63EF2BCD2AAD5 /* MPNativeAdRendererSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EA7F710F0C11B78E292CDA85395E528 /* MPMediationSettingsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B0254CF780130653382C390750C70AB3 /* MPMediationSettingsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +48,6 @@
 		11F5B5B45AA08BC4882F463328307FAB /* UIView+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A7E1A38CEF3EC41E4886477880F409 /* UIView+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		121F21C72FF3A05A5CF20E7D7CB180FC /* MOPUBActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F277E9C1414DBDF8568305ED48D3EE /* MOPUBActivityIndicatorView.m */; };
 		12483890520175E2F8D47BCBA672835E /* MPAdServerURLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 454900360A920A95A9F8AF714FC940BE /* MPAdServerURLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12F4CBE04FCB60164176108CEE7B1CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
 		14F102071D8AE187B76AA38B0AC02BEF /* MPError.m in Sources */ = {isa = PBXBuildFile; fileRef = A50337042FBBA8B95629ED251C9408E3 /* MPError.m */; };
 		155A283DE365E669B6F337BF847977FA /* NSJSONSerialization+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E2665FC5C28AA207C982ADFEB0DE1 /* NSJSONSerialization+MPAdditions.m */; };
 		1605AC20B04010310970B6CCE30DCBF2 /* MPUserInteractionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C5BFA07217EBFAFA77CBF9AB5D9829 /* MPUserInteractionGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,17 +58,12 @@
 		17FDEA2A1EDEF98842055F71E79F1C96 /* MPInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90933EABE0B50503E8DEA8725452643F /* MPInterstitialViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19028636F96F5D3CB3197B271C11B04C /* MPBannerCustomEvent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8FBC65704368F98E62AE486E45470B /* MPBannerCustomEvent+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		191AC0C526649BC8D313D462937F889A /* MPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F2C171FE48BDC5F257F0647992D54B /* MPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19A063ACC9D084717B3D482345F0952C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
-		19CC4738257CF5A2C64EA5B388872D10 /* Pods-Test-App-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB01BF502849D0BB5F60591DB400151A /* Pods-Test-App-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19D2F10D3C343DE15698BD1F135CCB27 /* MPMediationSdkInitializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1378465A9C79CA6B0167640F01097451 /* MPMediationSdkInitializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A0034C6B728737B7B0BA568289406A5 /* MPBannerCustomEvent+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B9E8C6FAD228A7706FB02EE3103477 /* MPBannerCustomEvent+Internal.m */; };
-		1A40B63B8812FCFCDEA62BE4D25937FE /* SOMAdapterYieldlab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA0A148508C8D03718F3E244D7E05B /* SOMAdapterYieldlab.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1ABCA0265137CC969CFC16390656A25C /* MPRealTimeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E8DA689B9D2D54F1D867DE99F3FC3 /* MPRealTimeTimer.m */; };
-		1AD581F58F9FB970DD8566A52046C7F4 /* Pods-Test-App-iOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5A127661664F4C0E828D2479A56D6C /* Pods-Test-App-iOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B51464A5B43DEC792485BBF9783CDD1 /* MPConsentDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3093A1D8A92FDECB79D73D134A6AD110 /* MPConsentDialogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C0D068E5B2B84EF765D2F58CC496F8E /* MPBannerCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 900BB4472E66EE726A8F4D443B022D06 /* MPBannerCustomEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C8D3B64FC7CA86DFF44E1CF0F5A1291 /* MPRewardedVideoError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB5BA433607F4AB1D4C05FEF15DE9 /* MPRewardedVideoError.m */; };
-		1CA8334BAA05C7599FA1C23A172BE83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
 		1FC1948AAD0225CA2FCA18F1B54681E1 /* MPInterstitialCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 149EB48571C18E9227C5294E1FD23E04 /* MPInterstitialCustomEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		207CF589E897167B49417B2F7DFA58EA /* MPNativeAdRenderingImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A7C3D5BB68284D411A9462F4CA9E91 /* MPNativeAdRenderingImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		219AEC9AB1094F7AD1589FC37416DF4B /* MPMRAIDInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8614B1D5195E5BAA81F90B3BEAFF4B /* MPMRAIDInterstitialCustomEvent.m */; };
@@ -79,14 +75,13 @@
 		23236D2D1D2977FC597158EF25D9C251 /* MPTableViewCellImpressionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66E60217F27841A048B67B84B0A693 /* MPTableViewCellImpressionTracker.m */; };
 		23CB602557745661EBF586D4429228B6 /* MPNativeAdRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = F488AA4E29728BB8D3157FE8A6597CEA /* MPNativeAdRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2441141FCD7D5377EB715B69A75E01B7 /* MPNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5476AD512B9245AA826AD589E993C8B9 /* MPNativeAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2502A80BD32B54FB19D2CD7D2E4B9B06 /* SOMAdapterSmaato.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BE1263C9DD40F3C67ABE2C2DA4950 /* SOMAdapterSmaato.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2542441FEA55CD929FD984F1129656DD /* MPNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A0E2A35A45FC38EE414759BBB0053 /* MPNativeView.m */; };
+		2569076DD6E11797F19E31D73703EC0B /* SOMAdapterSmaato.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BE1263C9DD40F3C67ABE2C2DA4950 /* SOMAdapterSmaato.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2587793ADDE134C38360BA8A410705D8 /* MPAdvancedBiddingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A08EE1226D9BEB56DBD1542472FDE /* MPAdvancedBiddingManager.m */; };
 		2816D17DC0E41925E1ECE1119F5BB37A /* MPError.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A099A90E8C3E3A5F21105C4D14637A /* MPError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		284A4BC7D5C866F777225B47FB96B14F /* MPCollectionViewAdPlacerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A938AF7808683CF6DC08AD594001B4 /* MPCollectionViewAdPlacerCell.m */; };
 		2908CFCAC3AA6DADAAA4EA763A9105D7 /* MOPUBNativeVideoImpressionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E81AC2683350A68B842341A36D1DBB72 /* MOPUBNativeVideoImpressionAgent.m */; };
 		292A1E56ED923E8A524599ACB830887E /* MPViewabilityTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DFAE7AE493C005EEA359ACA057B5C1 /* MPViewabilityTracker.m */; };
-		294680EC937B05D01057E6764B428ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
 		2A36C23395BD04119535417620D584E1 /* MPMRAIDInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B773518CD960A0FFD2A8C6CDAFCBE5 /* MPMRAIDInterstitialViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C428964A6BCB997026FE3843C682129 /* MOPUBAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8824500ACCB96D294C0EFC942AE90D /* MOPUBAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D2B8808165E7B243F59A5B81DCA0B6A /* MPMRAIDInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3A2F9687AE4B652A9C8045FB8D596E /* MPMRAIDInterstitialViewController.m */; };
@@ -113,7 +108,6 @@
 		382CC77C965BD66B089CD6A5E040996A /* MPRewardedVideoCustomEvent+Caching.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B693D1F5403BEEB61F9FF66742DDE2D /* MPRewardedVideoCustomEvent+Caching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3837BEEFA18B59D2440CCF4FDBE3029C /* MPAdBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDA1FEA132F088820E9790D7B200A5 /* MPAdBrowserController.m */; };
 		383EA94B7F3CD289807C1438FA21690B /* MPEnhancedDeeplinkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B01EBFF06A871CD41C98C8B1DB3F08 /* MPEnhancedDeeplinkRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38809EF1B6FD19F1B9DA0B355DAE3CF5 /* SOMYieldProbeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DBAC0A3A8CCDF548293A298468B6 /* SOMYieldProbeLogger.swift */; };
 		38DC0DFFB71AB3F27B564098F2FFEAF1 /* NSHTTPURLResponse+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B99A277EDEE66D0B7C2FCFB2638FE9D /* NSHTTPURLResponse+MPAdditions.m */; };
 		39406E5A090C6C448C39EEC80975B601 /* NSURL+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C284F8D7404411ACA08A0005BD2DEE /* NSURL+MPAdditions.m */; };
 		3A75CF20F9A1B1ADF19AEB93D62DDF80 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83F06503AFBE19CB5B3ECA02BB6D32 /* AVFoundation.framework */; };
@@ -124,9 +118,10 @@
 		3B2F3FA80C9F0EE8CD94F0B0A163FE1B /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF86885EAB4A03C81A008CD31EC07B76 /* MPDAAIcon@3x.png */; };
 		3B6ABB83BBAA46A801D9A47CC0E9D57D /* MRBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C074FB297193A139A94360D4722BA69 /* MRBundleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CE82AD589316A4F6EBE04DC5475D37D /* NSBundle+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE528EDB2B2263B52AD98B4C348B7337 /* NSBundle+MPAdditions.m */; };
+		3D612E4BF2772E3C95E984B6E4F6A8D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
+		3F333CA3BA0F5EAC8E8CFC727AB84937 /* SOMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C289F2EEC07A0E8379BF3EAB0F54F4 /* SOMConfig.swift */; };
 		40B6F20C13C397274AA2CBAE9860033B /* MPVASTResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8741BCA35F2EE5B917F3191B7DD81C /* MPVASTResource.m */; };
 		40DDC49E6D0B9B37A330049E27C30FBA /* MPVASTIndustryIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9771AC9867E6A28DCD3A5F3B80097C13 /* MPVASTIndustryIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40FEE42A990F8BE80946FFF11CA4EFA2 /* SOMAdapterAmazonDTB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CF780D2770BCE45E28DB87A96EF7E /* SOMAdapterAmazonDTB.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		41CA9587248921CB238EEB8803D2D209 /* MPRewardedVideoConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B90663F3DBC50D01F6989DB609C866 /* MPRewardedVideoConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4209EE2EBAE51B89C595322437677B57 /* MPVASTStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEFBBF5ED2D98F1E04A8CBE17DCBB90 /* MPVASTStringUtilities.m */; };
 		42C0CFD20767BC836B0470750CA186B1 /* MPHTMLInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D625CD306ED84FC2FED577376F36C841 /* MPHTMLInterstitialCustomEvent.m */; };
@@ -164,6 +159,7 @@
 		55F1DE7C47AA78A1AA1A15D2A9C1DBB7 /* MPNativeAdRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DA6E4401F3C4320CFACA6861C9BC4B /* MPNativeAdRendering.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		568A2E69CC090AF4D078A441930D2EC7 /* MPVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 249DCEEECD81D98FBCFB3ED0577089D5 /* MPVASTMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		582E03D92C20238F2AFF9A1027C05CAE /* MPTableViewAdPlacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E19601EF57C3450741A946BD6318A /* MPTableViewAdPlacer.m */; };
+		58F2C55FCE9777C325C4AB5B13C12A12 /* Pods-Test-App-SDKs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2AF7A508837E193877153DDB567A033 /* Pods-Test-App-SDKs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5929ABF362F98943FE83CC9E2623F9A7 /* MPMoPubRewardedPlayableCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B8A1A3681FAFBB381AB6D45ED7522E /* MPMoPubRewardedPlayableCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE97E5572892BCDD3915CFC90471516 /* MPNativeAdConfigValues+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C847F1EA8CE54B967F4B05F0CC9EF632 /* MPNativeAdConfigValues+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BFDEEF4A333261261EB526CED330BEA /* MPAdDestinationDisplayAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F860950F52267581795A65910B077114 /* MPAdDestinationDisplayAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,6 +177,7 @@
 		6167A154F1DD5EB16B6ED655C31C5525 /* MPConsentChangedNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CB757BDF289EE00DA8519ED0C3E651 /* MPConsentChangedNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		619887F406F753A11FE0102A35FA514A /* MPHTTPNetworkSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C4D72ED723BBAEEB09E632B1A91522 /* MPHTTPNetworkSession.m */; };
 		61E3E40BD0CF2B01EEE934EDEA542786 /* MPPrivateInterstitialCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFE0E8FC512ED8A9269B99A885F0491 /* MPPrivateInterstitialCustomEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D2AE88BF7F57CA7B45BAE688F4CC70 /* SOMAdapterYieldlab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA0A148508C8D03718F3E244D7E05B /* SOMAdapterYieldlab.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		62E21DF27E9D73DBAAD8E90441DDD8AC /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86D79050D42A372FD89F27B9A607506 /* MPPlayBtn@2x.png */; };
 		630D4D05FF9D1014D5113BDE963B01F9 /* MPNativeCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DBBBC884FF4E443B53B7E1DC28463E /* MPNativeCustomEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64A0CA68F0FADC5F1851B67E6455341B /* MPRewardedVideoAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C86EFF5688604948524790EDF33BC9 /* MPRewardedVideoAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -188,11 +185,9 @@
 		6633FB45B11C37B3811A4A096E62B018 /* MPReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B411F3783DC78DD64B22C6980A800137 /* MPReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		669883F133F0FFD8C3129CDA73189C78 /* MPVASTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE6F05B8938ADCBB4AEA4F68E4B61EF /* MPVASTManager.m */; };
 		6844590BAB29EAEEB94AC71D0FEE2A3D /* MPDiskLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE1AB252603B3893D4026B0693DBC /* MPDiskLRUCache.m */; };
-		685AA3686D4E26ED3D3E5D4FD5E7FCA7 /* SOMConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC17E684FDFD88F4458B8FA1F70B22E5 /* SOMConnectivity.swift */; };
 		686C1C6DBC586A4093C1494117DFAC15 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 39570BA7B5B25E46C80188E31BFEEC13 /* MPCloseBtn.png */; };
 		6876392E7463AEE6E6EADC9A71BD47B7 /* MPVASTDurationOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F48DF054B0139562E44FF008CDC7C7F /* MPVASTDurationOffset.m */; };
 		68AB9574E221F19DAFB777EEC199CD85 /* MPAdAlertManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E640789857EFC6997D2A87659538982 /* MPAdAlertManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		693D191542EAF361DA1EC965800E1B6C /* SOMAdapterLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAFBFA49DAE2F291CDA7F8861BEF0F /* SOMAdapterLogger.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		69D1BCC4C1E66FA4E494E0C59FB435FC /* MPVASTCreative.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FE6CE26E8C4AB8024ACDCA51E51293 /* MPVASTCreative.m */; };
 		6A2F62D8E98E2F8BDF1D5BA3793D54A4 /* MPAdPlacerInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF8B8AE79EECF60065699A7DDEB9A2 /* MPAdPlacerInvocation.m */; };
 		6A5BF644DE6123C230B93D8014F01E40 /* MRController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752F9A70544FC856CA051411376AA193 /* MRController.m */; };
@@ -204,12 +199,10 @@
 		6E66BCC723DB81C0B4C41BF01A0877FE /* MPRewardedVideoReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 049F8A2EEAEB6DC11DD0F1B3A4E74EF2 /* MPRewardedVideoReward.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ECC2A6DC951CB76141BCC06E44B500B /* MRNativeCommandHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C17F45F71BA8EF11CFF81F9B8A27A8E /* MRNativeCommandHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ED2213163CC17C827AB98F766A354C2 /* MPMoPubNativeAdAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4B8B50385A34168FBABE3DB9EDD1BC /* MPMoPubNativeAdAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FC6894E23290132158BBA9853D536C5 /* SOMAdSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B96B2E53B9AD905DFAFEBC8B6AFEB /* SOMAdSlot.swift */; };
 		6FD94F8971EA955AC9EDE4C73D5CF8E1 /* MPCollectionViewAdPlacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9A6DEF9BE79918466B18C402A8D4CF /* MPCollectionViewAdPlacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		701581F9286E7E3AA09D46C20ECC7365 /* MPViewabilityAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = C665BCE32FB75BF54CBBD7E301CBAE8E /* MPViewabilityAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		704DC97AD4EDF5FAFAA1AFD0DDE42C17 /* NSHTTPURLResponse+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E45178656D9DD0E2E0805950E8E93A1 /* NSHTTPURLResponse+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7176254734C82C27AC59AFA642186BF4 /* MPMediationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 692D67143186F8C4CF0C24267816DDE0 /* MPMediationManager.m */; };
-		71EC706DA6311293BD2AE4330A7B4AA8 /* SOMGeolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE88ABA2CF447DBED2FA025B0ADF2BE /* SOMGeolocation.swift */; };
 		730990E8432DB7E81D47C5C7301A0A05 /* MPVASTMacroProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = A02F75FA708E6BC94BA9135B63AC8713 /* MPVASTMacroProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AFCA4203134CAADD5E47B6443A9059 /* MPVASTManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2B5BF711E4F3A607F4DA8C18823ECA /* MPVASTManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74B20D9712D7286AFEB4276FA09F4206 /* MOPUBNativeVideoAdRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6696AEE0D8B33080B5C42B42DD508EA9 /* MOPUBNativeVideoAdRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -223,7 +216,7 @@
 		78119BC6E1B560DA0804B3A54DF8C003 /* UIButton+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 066BCE7CA4B821712FC86ACB65F5FC4B /* UIButton+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78628A024E98EC0AB895586D912F6164 /* MRConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 39947688C23E901CCB5CDD9086E18311 /* MRConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		797362B36E14150BACCCEF5FE6ACD259 /* MOPUBAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C73B379F5A16BFBA01EE74994359AA2 /* MOPUBAVPlayer.m */; };
-		7A3ECACD5C9729C0347697C80EE1AC63 /* Pods-Test-App-iOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E8E79571B58ABFAB0837F3DA89BD85 /* Pods-Test-App-iOSUITests-dummy.m */; };
+		7A1265ED5BF6A55BBE45EDDCE2CD7575 /* SOMMediationSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8719B43B5B9996E338E1067E03E10981 /* SOMMediationSDK-dummy.m */; };
 		7AD3E492AF5BCC779DCFFE5F155BD2EE /* MOPUBPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F40B5D7FF0B06DD3D39207B7F2F7DD1D /* MOPUBPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C20E5F21D005452A413D3996F91D6FE /* MPVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 657683F2879ADAE5C5C4E9C367C3444F /* MPVASTCreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D2E7AF2F642CB4FB15BA683BC3A49B6 /* MPNativeAdRendererConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F07415888B29F2AA5FF45926642C0E /* MPNativeAdRendererConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -241,6 +234,7 @@
 		831BD528324288A28E2ABF7C3778A20F /* MOPUBPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1AD2DDE102229998FC32CDD702AF09 /* MOPUBPlayerManager.m */; };
 		839C1B6E639B5B8558C9A10EEF69BC38 /* MPNativeAdConfigValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 3604117B5B14D5159100F64E3BFEB390 /* MPNativeAdConfigValues.m */; };
 		83F1ABF0DFDEF4AD5F5CE7541D61A073 /* MPURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5AE12446B3491C46B36328E303FC8A /* MPURLRequest.m */; };
+		83FEF67D17E8D91A51D0B7CB187EA9C4 /* SOMAdSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B96B2E53B9AD905DFAFEBC8B6AFEB /* SOMAdSlot.swift */; };
 		84E7EE7FBF3CB8859EED18390531EE6A /* MPActivityViewControllerHelper+TweetShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD0B19D78AEA7EDED8F1C8E32B26BC4 /* MPActivityViewControllerHelper+TweetShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84F42D26C8741F25996761CEBE634996 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D62216807DF4C3E085E8E413FD3CDAFC /* MRAID.bundle */; };
 		8594C186FD94B4DEECB672D8640CF1BD /* MOPUBPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CEEEC57E170B686CCF05A639F608DE /* MOPUBPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -249,22 +243,21 @@
 		884AC1470F9443CC51DC032C4F72590D /* MOPUBNativeVideoCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 31575352DCE39D514FCFD3170CF0CD49 /* MOPUBNativeVideoCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88DED222720063DC74FCDFD24F7F152F /* MPHTMLBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 24402144DF374189D443C491EEEEA9E2 /* MPHTMLBannerCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89408AA93AB854889703C38F71607FDB /* MPNativeAdRendererImageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4619C7D927FFD372E9E24869C06B0B36 /* MPNativeAdRendererImageHandler.m */; };
-		8A77FD4ABC85A31317D49357A45F86EF /* SOMYieldProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3FB738506DEE357A945008B619C224 /* SOMYieldProbe.swift */; };
 		8AD627C436C8BCC7726E37663F12F195 /* MoPub-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A0131C8153C6E68F63D11C7E33EDC4 /* MoPub-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B34F2B1A82E70C40F19E4BC87373F04 /* MPNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = D574E1462B3A73436E5D07B43949CA43 /* MPNativeAd.m */; };
 		8B5B4A4B1917BB33C200DF63849C324D /* MPAdServerURLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA7A4F9D3EE3205F175F7E351E0F17 /* MPAdServerURLBuilder.m */; };
 		8B5EBC6C38C0B7A178A8D97BF07FB10A /* MPAdImpressionTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDF87171AA20D8E87728A84D83B4993 /* MPAdImpressionTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF488675B1FCDDDE6B0921C41A28AA0 /* SOMConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC17E684FDFD88F4458B8FA1F70B22E5 /* SOMConnectivity.swift */; };
 		8D598D68306CCCBCBBE97B3D2CB0B7CC /* MOPUBFullscreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B73B9A8706EBBDB26D9E078FE53DB /* MOPUBFullscreenPlayerViewController.m */; };
 		8F8F038176974DB348735369273F0B10 /* MPRewardedVideoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A65B7AD5EDDE76EF31505E677733A9 /* MPRewardedVideoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FC9E5F4603C20DCE5517133B8205781 /* Pods-Test-App-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1421E119AE26D1BD83D050B14A4898D1 /* Pods-Test-App-iOS-dummy.m */; };
 		8FCD3908DD975D3481491EC3219D6629 /* MOPUBReplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E8790C002D27E18E2C2B87E770FBE /* MOPUBReplayView.m */; };
 		8FFEBC0E6A21C973BD33946D26568CD9 /* MPConsentChangedReason.h in Headers */ = {isa = PBXBuildFile; fileRef = AC67AFC8854AF0D04FCA54F8C0F75A60 /* MPConsentChangedReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9078DB658F9C1277F92C9551659B8C2D /* MRError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4973BE964DD964A95DA0EB68712F126E /* MRError.m */; };
 		90E03883F53F7FDA26026FD2264D4367 /* MPGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6C1457833BE387324558E45CFAFA80 /* MPGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90FC658F9DA1D12637319D63CCD93298 /* MPRewardedVideoCustomEvent+Caching.m in Sources */ = {isa = PBXBuildFile; fileRef = 89582F46AFF181920822FEAB1F070F3D /* MPRewardedVideoCustomEvent+Caching.m */; };
+		9142A638D38CA044DF3E946A557ECBF3 /* SOMYieldProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3FB738506DEE357A945008B619C224 /* SOMYieldProbe.swift */; };
 		9144FF9FB145EE20FDEFD6F1FDBC48AE /* MPIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CCFF0620B688333EBE64F2CD58014F /* MPIdentityProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91876A410DA7439105AE103798652426 /* MPHTTPNetworkSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9FB3B13004C1132495CCB6F88492D7 /* MPHTTPNetworkSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92442976573AE89E50320871F48CB9E0 /* SOMAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2966347AB22DC04D11D70C3E6A8707 /* SOMAdapter.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		92C989002876B07B926BEE92D1EA7CAF /* MPConsentStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0DAE5E357EBD8E38CBA303E3CF66F6 /* MPConsentStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		934E05DE1C6CC9598458EC173AB8C944 /* MPIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 957529CC3D18769A1E3790043C0E506B /* MPIdentityProvider.m */; };
 		936BF829A2949AE1CF34B16E5971BCD6 /* MPVASTMacroProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB067A8FDE0E7D9CBA78705C8DB99A7 /* MPVASTMacroProcessor.m */; };
@@ -284,9 +277,10 @@
 		9C46CDF462B5AAF67E9408BAB69F9A74 /* MPInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E54E98B5E0A0E1312B1FC07C3C03B1A0 /* MPInterstitialCustomEvent.m */; };
 		9C4E258060F0D9D194FE37699E9FFAEB /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = AE185CB41BF4B65A6AFF9E2BFF2774BB /* MPCloseButtonX.png */; };
 		9CC62C511BE7A391B6A96DE72F07A0FC /* MOPUBNativeVideoAdRendererSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DA56C3AD5220FDD7628001B8FAEA1F6D /* MOPUBNativeVideoAdRendererSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CE5FB27790E025F1E3DDC5FAE14734B /* SOMReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027ECB1D63C54C5925139B37A5A3AFDA /* SOMReachability.swift */; };
 		9EEF13970E21435CCE3F714FC91FADB4 /* MPViewabilityOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 265398407D53D0AF2642CE173D1E9229 /* MPViewabilityOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F23A8AFBB1F0908772084C9D04AE4A4 /* SOMAdapterLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAFBFA49DAE2F291CDA7F8861BEF0F /* SOMAdapterLogger.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9FF67919BD5621A7BEFDB93FB7F12F6F /* MPConsentDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F91A1489A082B48E949330544F8A290 /* MPConsentDialogViewController.m */; };
+		A0C3A3DE0D8501223007C8C9731CDA1D /* SOMYieldProbeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEF4D6FE24C5C9A1F665C8E4A807C1 /* SOMYieldProbeSDK-dummy.m */; };
 		A11DA046EDBAEF15CE125814F3B9C2AE /* MPMoPubNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F13E640C1475AC3BCAFBC14BA1E8533D /* MPMoPubNativeAdAdapter.m */; };
 		A22223929946A5AFA9F4E19BCF78B272 /* MPClientAdPositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 09291ED4A0F4F7758B2D1594241B014B /* MPClientAdPositioning.m */; };
 		A50C071DFDDC84810C6C09CF8501FAAF /* MPEnhancedDeeplinkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D81617D50D62E12F49030CE5DCD25E7 /* MPEnhancedDeeplinkRequest.m */; };
@@ -294,11 +288,14 @@
 		A590C0E9E39442CB3CCCF8972CB9F84B /* mopub-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA935B52A53BC14462A8E1E575307B /* mopub-ios-sdk-dummy.m */; };
 		A60AF65E89C920C64198906DCA36492D /* MPVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F772D352A2FC46BF1837A5B3A67B53 /* MPVASTMediaFile.m */; };
 		A6866A7CD2F4DEB71293A766B655C7A1 /* MPAdServerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F08B095DCA5003443C504137BD0DB7 /* MPAdServerKeys.m */; };
+		A760E6DC11B486DF53DA7CFF16198C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
 		A7ED8A8C2E1627C50A50692CB1A10C8C /* MPVASTIndustryIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBDF42BB24C6AD1B330415B7546E67B /* MPVASTIndustryIcon.m */; };
 		A8BA9330B82CC2949EC73374375C0DEC /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4102CE2A21914DED0A0365456A868306 /* MPCloseButtonX@2x.png */; };
 		A974EB58CE5EC98D73217A298E232348 /* MPMoPubNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7622D01E58DE6730B21C4EEA69586658 /* MPMoPubNativeCustomEvent.m */; };
 		AA14F7BFFBB69E7C72A01D5BED361A57 /* MPNativeAdRequestTargeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD24D716BE5CA97D3FA8B877CB88B2 /* MPNativeAdRequestTargeting.m */; };
 		AA5088A2164B05B60F169A6949600A4A /* MPInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1686FC0FD4DE7D98D2F83A25299D0D /* MPInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6AB5937C1531BDE6277C624AD64CF7 /* SOMYieldProbeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8627CCFAFB6D22EE456D623663970A4 /* SOMYieldProbeSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB923821FB7086837FD331159AF016CA /* SOMBid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9299F403FB7CEF5BDB0F4BCE896672 /* SOMBid.swift */; };
 		ABBAE05E29541E9C27067696F16D5D9A /* MPMoPubConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A57D7C06DED46739342F5AF456A532 /* MPMoPubConfiguration.m */; };
 		AC15336EFBA8BB5CBA21347B1559E5D1 /* MPMRAIDBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18307181F0417CA6CBD9011A9C0DDC /* MPMRAIDBannerCustomEvent.m */; };
 		AC7C06EE567E9BCE8FE03C812BBCA104 /* NSString+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5842F4418EB367D66B96D07FAE676B72 /* NSString+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -307,9 +304,11 @@
 		AD930BE212202EF53A1593BAF4B75E07 /* MRBundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9631986DF5E6A5EACC5EF604C51C29FC /* MRBundleManager.m */; };
 		AF1961FDA0637FC266C852B0C3C78DFD /* MPXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F1620863B5CE6CCF3FF64344BB5B1 /* MPXMLParser.m */; };
 		B065694D5BA7AE263A69B82159D63B2A /* MPSessionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 623AF74097FF8C3A9BF3D91FF1CF98D6 /* MPSessionTracker.m */; };
+		B06BB0889C60E3575F1B10F97C9764F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
 		B099882B84D424579F6A97C236FE4AB3 /* MPVASTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5F97BA2E8064F1AAB85F5B3A41A71A /* MPVASTResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B36C9C66F87D6D523EFF4799E7B6F113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */; };
 		B3B8FE216C1B2CB9F788DD4CE5A2B7D6 /* MPVASTLinearAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D33FB40880815940BE348EE83E87D /* MPVASTLinearAd.m */; };
+		B48C53CF3EEEFA23EB1D22B7C0FD6460 /* SOMAdapterAmazonDTB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CF780D2770BCE45E28DB87A96EF7E /* SOMAdapterAmazonDTB.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B4D0605A05904079D597ADF7FC140A4A /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF174FE1C96B6EE578F064700753414 /* MPMutedBtn@2x.png */; };
 		B556AE8A9CA0D69757C5B55738D00D6F /* MPNativeAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B54107A40535B41F528E6D74C062AE /* MPNativeAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6AC0EC82AC3EEEC8FEA279C6D4E8563 /* MPAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5DDD28F65BC7D68C4BDA44F34C9E1 /* MPAdView.m */; };
@@ -319,12 +318,12 @@
 		BAA083C1A4FF791DA34E8858A53DFD9E /* MPTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = E3ABDEAE23F2769E3DE6424B02F91416 /* MPTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BACCF6A947C5910CB9DA06C81D1B0673 /* MPAdServerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAAC5F777863E3406A0F4139F491A46 /* MPAdServerKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB0984EEEB8280EEF7A7357FEFF1580A /* MPVASTTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E8CE9FB3FD86421FDF89D81F786037 /* MPVASTTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9D6C9CF8BAC4CB1D616337B9F7A548 /* SOMMediationSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7894D7CEBD92B2F078519C0D6C8451 /* SOMMediationSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF25824CF61B7E3184F435BDDA833DC /* MPNativeAdUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC93A953A9890F931C42BEABABB1839 /* MPNativeAdUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDBAC15CA80C5AC289F77E0B6CE1DF06 /* MPNativeAd+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C72717C6A1723FA57AD9AECD7E5897 /* MPNativeAd+Internal.m */; };
 		BE1679E3D93224D34D39435AAF3E410C /* MPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFC050DA919BCEEBC468556F5174AD9 /* MPConstants.m */; };
 		BE4E388896A97157BFEBD85E6A6DE634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1028E9B4E4E201928AEEC53BEF078045 /* UIKit.framework */; };
 		BE5B14F8D63E45561AF80DC9634822B5 /* MPViewabilityTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCCBB4058137A6DD785107F8D1E1C43 /* MPViewabilityTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF07AFC64005652D7569DC86BE4A339 /* SOMGeolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE88ABA2CF447DBED2FA025B0ADF2BE /* SOMGeolocation.swift */; };
 		BFD766736EA707018488FCD4A0DFC47B /* MOPUBAVPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E08B55EC46CAB35A2890EC0F9B08C4 /* MOPUBAVPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFA1D26E41E531C20573A8431C5267E /* MPNativeAdUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B49143570AFDF64E1CBA168F08CBD8 /* MPNativeAdUtils.m */; };
 		C1816C410620D33145063D2864E25C0F /* MPStaticNativeAdRendererSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B74CDD2BAC88CEF54B3B94A6451A322 /* MPStaticNativeAdRendererSettings.m */; };
@@ -332,7 +331,7 @@
 		C3466AD5314E89B5875F6EC5E8C3030A /* MPSessionTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA03DB12594C1E4FE4D03F4B7B2A9EF /* MPSessionTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C35B6984486B09E700C3713ABE473FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C56BDCBFCC45B6F5AF3F9F47A9CA0CB /* CoreGraphics.framework */; };
 		C455702099BC7CC5C96B572E802C600C /* NSBundle+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F034B159834E23CCB0C28672093621D /* NSBundle+MPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C55D3D241A3B2188FBDDDCC729C769DA /* SOMYieldProbeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEF4D6FE24C5C9A1F665C8E4A807C1 /* SOMYieldProbeSDK-dummy.m */; };
+		C500E6AD069CDE1C0C50D0BCE4F6094B /* Pods-Test-App-SDKsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64258659B51D2DAC3C522AEB574C842D /* Pods-Test-App-SDKsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5CF2967E0A282BFACD54D07B941CEBA /* MPVASTStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC966348A75CFE34D45F17BD8B6287A /* MPVASTStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C769346785956099F767EC711DF4F921 /* MPCountdownTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55B35457E054CD7E27FA91C1C87A07 /* MPCountdownTimerView.m */; };
 		C7A3F9FBC1656D060DB47182852263AB /* MPReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9927EE90EB8A629A46E208755DBDE004 /* MPReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -350,20 +349,24 @@
 		CDB0C9E423981AA99EE9E4E991336697 /* MPNativeAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2B0026B62DD910630E8849F7498BAB /* MPNativeAdRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CECE2A443E31D5B1347934AA798F2FD1 /* MOPUBActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89172834802B047D5A159A77B1BF7C2E /* MOPUBActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFE7F28989B171BDD45B71B3A76FC0B6 /* MRNativeCommandHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6349C499B6C54AF88C30069D04A3E1 /* MRNativeCommandHandler.m */; };
+		D083F6334CBBBA24D3F3517432085FFE /* Pods-Test-App-SDKs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 709719955C18B6CF102F90D1C1E93523 /* Pods-Test-App-SDKs-dummy.m */; };
 		D087CFAB4805525292F574569AC74537 /* MPVASTResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E08216E58C7CB9340E80784BCA9402 /* MPVASTResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D11A02F571A78F35B113DCCADE11B6A5 /* MPAdConversionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78D68BD1ADBFFA72AED58A08466E2D /* MPAdConversionTracker.m */; };
 		D17DA9AE9851EA3B2960291CB48ADCC9 /* MPNativeAdRequest+MPNativeAdSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F6EDCBEA8902A87DABC3241443F32D /* MPNativeAdRequest+MPNativeAdSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1BF78BFE21E3BEAD87B20C770B251F9 /* MPMRAIDInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE62D7E85C94DAAACD4FD5C38B6CC51 /* MPMRAIDInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1F8F23203DA379929393FD202753587 /* MPCollectionViewAdPlacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D47F12572FDFF56D7B53708E8EDABB7 /* MPCollectionViewAdPlacer.m */; };
+		D27FE9AA31F4C81688F793612E26798F /* SOMAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2966347AB22DC04D11D70C3E6A8707 /* SOMAdapter.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D2A486F264FD72A84D318C3151154B7C /* MPAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A55A55F89F116C9496220F8B3F6923 /* MPAdConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2AFFC3BC2E165DC586A08DE2984A366 /* MPInterstitialCustomEventAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B5849C26B03D77B5AD016D03E1B93C /* MPInterstitialCustomEventAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D3EA61BB29486C77EDA01E2ACB2622 /* SOMReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027ECB1D63C54C5925139B37A5A3AFDA /* SOMReachability.swift */; };
 		D3B66ED185A4F61FF3DBDFCAEBC19CEB /* MPClosableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C78D94B356C29607DB56FC1DCB930 /* MPClosableView.m */; };
 		D43F4B7204D87D2644D876B0FF2CC280 /* MPNativeAdConfigValues+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CBC78BFBDA5A72D9120454C7D3B32F /* MPNativeAdConfigValues+Internal.m */; };
 		D4E1DDA07CA265CB2CCE16A413F806B5 /* MPInternalUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0287C0465CC955578A7AF54CAD3F10 /* MPInternalUtils.m */; };
 		D5D5E4396B942625164618E3917CDDBA /* MPMoPubConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A993FE13D7A32E93E976E18B2C9775 /* MPMoPubConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5ECE5EBE80374DB9956454FA5D8306A /* SOMMediationSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8719B43B5B9996E338E1067E03E10981 /* SOMMediationSDK-dummy.m */; };
+		D6DAE2B62C1C158C044B5C0A7A84A13F /* SOMYieldProbeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF01DBAC0A3A8CCDF548293A298468B6 /* SOMYieldProbeLogger.swift */; };
 		D6F672077DAEBE8C8EA2E0D3983530BF /* MPBaseBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A8136579FFBC5BF0E6C32CAE9D6F3B8D /* MPBaseBannerAdapter.m */; };
 		D738374F184CBCCD6969C9C542B0678D /* MPActivityViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 177BEAADE0B4FB2FDF57DEFF0D97BB65 /* MPActivityViewControllerHelper.m */; };
+		D7581CB75D7D39D07FA6584ACAC4C9EB /* SOMMediationSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7894D7CEBD92B2F078519C0D6C8451 /* SOMMediationSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7E9E33EB868221E0E1DADBD65F2A825 /* MPAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E5D46AD02E842EBEB034105C2F18CC /* MPAdConfiguration.m */; };
 		D821A4317AFD732A0ED624180271C02F /* MPAdPositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B1324C222BE417C4EAFA49F402F49 /* MPAdPositioning.m */; };
 		D8A7BDEC2E7FD356F71527A9B8315017 /* MPConsentChangedReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 8671E67A71F6198722DC997FCA82E308 /* MPConsentChangedReason.m */; };
@@ -385,7 +388,6 @@
 		E1F1DC72B5BEE1B5D79481CA3E80C1E3 /* MPWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B9F025525C9F45C012C5C614E28D0 /* MPWebView.m */; };
 		E3488E6951D9BEFE04E846AE6013BF89 /* MPServerAdPositioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3EA715985509825A90657F902A6A27 /* MPServerAdPositioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E37265F412E3CA1D833FF2D5290076DB /* MPStaticNativeAdRendererSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = FF54DF878B6FD3B7B567936680C7A68C /* MPStaticNativeAdRendererSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3BA61E91BB551D8EAB28677E5D96004 /* SOMBid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9299F403FB7CEF5BDB0F4BCE896672 /* SOMBid.swift */; };
 		E3C72394247180AA7B440D3383AA30A4 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A2E552F0BC372EE47B4DA6F4415A38 /* MPUnmutedBtn@3x.png */; };
 		E3F2703AA21BB2D3A4DA5DD6AC9755EC /* MPStoreKitProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9548A61A7DF23A7E49B9A6A7EC45A352 /* MPStoreKitProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3FAEF89F057A79F6F17C3AE4715A3A6 /* MPBaseBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F051B7913450A8F00316BC57141690B /* MPBaseBannerAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -396,7 +398,6 @@
 		E62E9A6C342559A206E557DB935832CE /* MPInterstitialAdManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 488F94EB4231E86FA45DA85D8E8E0F09 /* MPInterstitialAdManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E794ED550D370C12C899655A62370FDE /* MPPrivateRewardedVideoCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E147C5972CB682417D9E351F24B7E54F /* MPPrivateRewardedVideoCustomEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AB2E761054D3065867B393E378A334 /* MPWebView+Viewability.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E62E1BF7B0430AD0C529E269644FA /* MPWebView+Viewability.m */; };
-		E8C55119E138D5B7780075694638F9B3 /* SOMYieldProbeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8627CCFAFB6D22EE456D623663970A4 /* SOMYieldProbeSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8C5D898057D375B2EE1FC73AC6F3CB0 /* UIColor+MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0922FF98EC4B96F24C375C3DD328E05 /* UIColor+MPAdditions.m */; };
 		E9845DFDEF10615987E48E2FA0DDB140 /* MPNativeAdConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4FF9878125A27F3B72416764AE7C32 /* MPNativeAdConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0EFD3E2763D55235256AA5263FEA16 /* MPConsentChangedNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440389EA431F184F40B6BADF85F422C /* MPConsentChangedNotification.m */; };
@@ -438,49 +439,47 @@
 		FEA8812262D7C707D7C826BA2BC72A15 /* MPAdvancedBidder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2088AEF21416E4AF56B4C5EACFC1B123 /* MPAdvancedBidder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FED9A1EF99B5D51DED1B88761A042B1D /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED70C845FC496FBBACDDC356A31CFE75 /* MPUnmutedBtn@2x.png */; };
 		FEE314042892C06BDDD1063837C09BD2 /* MPBannerCustomEventAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A121E5C3051F820111497C71C807993 /* MPBannerCustomEventAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF2DDC6474F8CE4FC6CB6CFF4AE3E150 /* SOMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C289F2EEC07A0E8379BF3EAB0F54F4 /* SOMConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B0FE27D652AB16CE50EB253311872F6 /* PBXContainerItemProxy */ = {
+		01DE4FC78FE642FBA6E1BFF99FFF4CEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4499854038E6CB3DD706894BC2DE81F;
-			remoteInfo = "mopub-ios-sdk";
+			remoteGlobalIDString = DD1E66A10AF3470424DFD5FF5188B2CD;
+			remoteInfo = SOMMediationSDK;
 		};
-		6FA27B7635BAF821190EFDB1FBFE6A2C /* PBXContainerItemProxy */ = {
+		919CD83D54B49E02AEAA2A0AFBCD60D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E6FEF46208D9B8FA435B87B9B984F7FF;
-			remoteInfo = "Pods-Test-App-iOS";
+			remoteGlobalIDString = 8BE231C80727008E033F2FB98685F548;
+			remoteInfo = "Pods-Test-App-SDKs";
 		};
-		CC8165B5E96C7E177D61470B90678C48 /* PBXContainerItemProxy */ = {
+		A178585E7E2EBF53F7AE35DF154E3F58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE115312E7E53FA184CDCE0E508600F9;
+			remoteGlobalIDString = 2B1201C1722D2795F905082095BB1F6B;
 			remoteInfo = SOMYieldProbeSDK;
 		};
-		D1254420820ACC61DC6E9216F9CFDCFE /* PBXContainerItemProxy */ = {
+		B170697CFE7243CE43413E4D07A3F61B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4499854038E6CB3DD706894BC2DE81F;
 			remoteInfo = "mopub-ios-sdk";
 		};
-		FC6144DCD60371FD77BAE58495B11E70 /* PBXContainerItemProxy */ = {
+		D206D9BECFC96D4A5B60C71F2304CB07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D3F864B3E79363F8C4576C01455BCAE;
-			remoteInfo = SOMMediationSDK;
+			remoteGlobalIDString = F4499854038E6CB3DD706894BC2DE81F;
+			remoteInfo = "mopub-ios-sdk";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000A0E637B6CC21AE00D7059E014F630 /* Pods-Test-App-iOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-iOSUITests-frameworks.sh"; sourceTree = "<group>"; };
 		0111F1840207D3A0232C85D58EC568E0 /* UIView+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/UIView+MPAdditions.m"; sourceTree = "<group>"; };
 		01A5ABD62BE46B9FBE811D958E000CA2 /* MPActivityViewControllerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPActivityViewControllerHelper.h; path = MoPubSDK/Internal/Common/MPActivityViewControllerHelper.h; sourceTree = "<group>"; };
 		025425CA8644A41E261F09850EC4BE13 /* MPNativeAdSourceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdSourceDelegate.h; path = MoPubSDK/NativeAds/MPNativeAdSourceDelegate.h; sourceTree = "<group>"; };
@@ -490,13 +489,13 @@
 		03A55A55F89F116C9496220F8B3F6923 /* MPAdConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdConfiguration.h; path = MoPubSDK/Internal/Common/MPAdConfiguration.h; sourceTree = "<group>"; };
 		049D33FB40880815940BE348EE83E87D /* MPVASTLinearAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTLinearAd.m; path = MoPubSDK/Internal/VAST/MPVASTLinearAd.m; sourceTree = "<group>"; };
 		049F8A2EEAEB6DC11DD0F1B3A4E74EF2 /* MPRewardedVideoReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoReward.h; path = MoPubSDK/RewardedVideo/MPRewardedVideoReward.h; sourceTree = "<group>"; };
+		0516342F71E18107E92601F36A5AD971 /* Pods_Test_App_SDKsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_App_SDKsUITests.framework; path = "Pods-Test-App-SDKsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A65B7AD5EDDE76EF31505E677733A9 /* MPRewardedVideoError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoError.h; path = MoPubSDK/RewardedVideo/MPRewardedVideoError.h; sourceTree = "<group>"; };
 		065E99473CE4784A1747754F4C1995BF /* MRController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRController.h; path = MoPubSDK/Internal/MRAID/MRController.h; sourceTree = "<group>"; };
 		066BCE7CA4B821712FC86ACB65F5FC4B /* UIButton+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIButton+MPAdditions.h"; sourceTree = "<group>"; };
-		06791AA39D600CEFC2C372DC201612D1 /* SOMYieldProbeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SOMYieldProbeSDK.framework; path = SOMYieldProbeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B54107A40535B41F528E6D74C062AE /* MPNativeAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdError.h; path = MoPubSDK/NativeAds/MPNativeAdError.h; sourceTree = "<group>"; };
-		07094EB6AA72A49F75F696BD37F24A38 /* Pods-Test-App-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		07A7E1A38CEF3EC41E4886477880F409 /* UIView+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIView+MPAdditions.h"; sourceTree = "<group>"; };
+		08B8F579A181C77475259809F7432DFA /* Pods-Test-App-SDKs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-SDKs.debug.xcconfig"; sourceTree = "<group>"; };
 		08CA935B52A53BC14462A8E1E575307B /* mopub-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mopub-ios-sdk-dummy.m"; sourceTree = "<group>"; };
 		09291ED4A0F4F7758B2D1594241B014B /* MPClientAdPositioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPClientAdPositioning.m; path = MoPubSDK/NativeAds/MPClientAdPositioning.m; sourceTree = "<group>"; };
 		0A18307181F0417CA6CBD9011A9C0DDC /* MPMRAIDBannerCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMRAIDBannerCustomEvent.m; path = MoPubSDK/Internal/MRAID/MPMRAIDBannerCustomEvent.m; sourceTree = "<group>"; };
@@ -514,7 +513,6 @@
 		0EE8EF69DC3F151700E4F57362606283 /* MPInterstitialAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialAdController.h; path = MoPubSDK/MPInterstitialAdController.h; sourceTree = "<group>"; };
 		0EFDA1FEA132F088820E9790D7B200A5 /* MPAdBrowserController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdBrowserController.m; path = MoPubSDK/Internal/Common/MPAdBrowserController.m; sourceTree = "<group>"; };
 		0F034B159834E23CCB0C28672093621D /* NSBundle+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSBundle+MPAdditions.h"; sourceTree = "<group>"; };
-		0F91D869AE949A44321ED48F1D8BBD41 /* Pods-Test-App-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-App-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0FE6F05B8938ADCBB4AEA4F68E4B61EF /* MPVASTManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTManager.m; path = MoPubSDK/Internal/VAST/MPVASTManager.m; sourceTree = "<group>"; };
 		1028E9B4E4E201928AEEC53BEF078045 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1039991BC0DFD18210AC1D6D7A6A4D07 /* MPBannerAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBannerAdManager.m; path = MoPubSDK/Internal/Banners/MPBannerAdManager.m; sourceTree = "<group>"; };
@@ -526,7 +524,6 @@
 		1300B4146AC222F7FC0EB071B001D44D /* MOPUBNativeVideoCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoCustomEvent.m; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoCustomEvent.m; sourceTree = "<group>"; };
 		13553032CFFBF3C4BAC6925A4196138D /* MPNativeAdSourceQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdSourceQueue.m; path = MoPubSDK/NativeAds/Internal/MPNativeAdSourceQueue.m; sourceTree = "<group>"; };
 		1378465A9C79CA6B0167640F01097451 /* MPMediationSdkInitializable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMediationSdkInitializable.h; path = MoPubSDK/MPMediationSdkInitializable.h; sourceTree = "<group>"; };
-		1421E119AE26D1BD83D050B14A4898D1 /* Pods-Test-App-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-App-iOS-dummy.m"; sourceTree = "<group>"; };
 		149EB48571C18E9227C5294E1FD23E04 /* MPInterstitialCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialCustomEventDelegate.h; path = MoPubSDK/MPInterstitialCustomEventDelegate.h; sourceTree = "<group>"; };
 		14DAC240F4DE3A26207A4412A79FA6A6 /* NSString+MPConsentStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MPConsentStatus.m"; path = "MoPubSDK/Internal/Utility/Categories/NSString+MPConsentStatus.m"; sourceTree = "<group>"; };
 		159939DB5C015C75F09B14E7D85CA620 /* MPAdPlacerInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdPlacerInvocation.h; path = MoPubSDK/NativeAds/Internal/MPAdPlacerInvocation.h; sourceTree = "<group>"; };
@@ -538,6 +535,7 @@
 		1B9AC692EAAF0B1D08BD42F9F1400E8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1C0E83706FD0AF47FC2292D9384569BC /* MOPUBNativeVideoAdRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoAdRenderer.m; path = MoPubSDK/NativeVideo/MOPUBNativeVideoAdRenderer.m; sourceTree = "<group>"; };
 		1C17F45F71BA8EF11CFF81F9B8A27A8E /* MRNativeCommandHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRNativeCommandHandler.h; path = MoPubSDK/Internal/MRAID/MRNativeCommandHandler.h; sourceTree = "<group>"; };
+		1C4C257D2D531AA328F9C4E1A59BA9EC /* SOMMediationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SOMMediationSDK.framework; path = SOMMediationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4D1A7017317093DDFFAB9217CF1822 /* MPVASTWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTWrapper.h; path = MoPubSDK/Internal/VAST/MPVASTWrapper.h; sourceTree = "<group>"; };
 		1E2966347AB22DC04D11D70C3E6A8707 /* SOMAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOMAdapter.swift; path = SOMMediationSDK/SOMAdapter.swift; sourceTree = "<group>"; };
 		1EC966348A75CFE34D45F17BD8B6287A /* MPVASTStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTStringUtilities.h; path = MoPubSDK/Internal/VAST/MPVASTStringUtilities.h; sourceTree = "<group>"; };
@@ -548,7 +546,6 @@
 		21EE6EA005F24F9CD5804DC704CA41D3 /* MPLogProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogProvider.h; path = MoPubSDK/Internal/Utility/MPLogProvider.h; sourceTree = "<group>"; };
 		22CEEEC57E170B686CCF05A639F608DE /* MOPUBPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBPlayerView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerView.h; sourceTree = "<group>"; };
 		231C69AAE78325B61592206B4CC384CF /* MPTableViewCellImpressionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTableViewCellImpressionTracker.h; path = MoPubSDK/NativeAds/Internal/MPTableViewCellImpressionTracker.h; sourceTree = "<group>"; };
-		2364F394F13AD2605E471B2D38DAB17F /* Pods_Test_App_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_App_iOSUITests.framework; path = "Pods-Test-App-iOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E606B8783C6A12E5067ECD65BFE4F3 /* MPCountdownTimer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = MPCountdownTimer.html; path = MoPubSDK/Resources/MPCountdownTimer.html; sourceTree = "<group>"; };
 		24402144DF374189D443C491EEEEA9E2 /* MPHTMLBannerCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTMLBannerCustomEvent.h; path = MoPubSDK/Internal/HTML/MPHTMLBannerCustomEvent.h; sourceTree = "<group>"; };
 		249DCEEECD81D98FBCFB3ED0577089D5 /* MPVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTMediaFile.h; path = MoPubSDK/Internal/VAST/MPVASTMediaFile.h; sourceTree = "<group>"; };
@@ -570,7 +567,6 @@
 		31519A17835C1A65FA130965ADE5B532 /* SOMYieldProbeSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOMYieldProbeSDK-prefix.pch"; sourceTree = "<group>"; };
 		31575352DCE39D514FCFD3170CF0CD49 /* MOPUBNativeVideoCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoCustomEvent.h; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoCustomEvent.h; sourceTree = "<group>"; };
 		31699372CBF4CC5F42DDF7EC05BEF56F /* MOPUBAVPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBAVPlayerView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBAVPlayerView.m; sourceTree = "<group>"; };
-		31A83461E9B9CE1E8EC511030A0C7523 /* Pods-Test-App-iOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-App-iOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		31AC335E6F3B92336038699B55586930 /* NSURL+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSURL+MPAdditions.h"; sourceTree = "<group>"; };
 		323BE3717F090D157C465ED959E5EAE7 /* MPConsentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPConsentManager.h; path = MoPubSDK/Internal/MPConsentManager.h; sourceTree = "<group>"; };
 		32878470EEDD68E9C67E628292A30C70 /* MPCollectionViewAdPlacerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCollectionViewAdPlacerCell.h; path = MoPubSDK/NativeAds/Internal/MPCollectionViewAdPlacerCell.h; sourceTree = "<group>"; };
@@ -582,10 +578,10 @@
 		350E8DA689B9D2D54F1D867DE99F3FC3 /* MPRealTimeTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRealTimeTimer.m; path = MoPubSDK/Internal/Common/MPRealTimeTimer.m; sourceTree = "<group>"; };
 		352C78D94B356C29607DB56FC1DCB930 /* MPClosableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPClosableView.m; path = MoPubSDK/Internal/Common/MPClosableView.m; sourceTree = "<group>"; };
 		3604117B5B14D5159100F64E3BFEB390 /* MPNativeAdConfigValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdConfigValues.m; path = MoPubSDK/NativeAds/Internal/MPNativeAdConfigValues.m; sourceTree = "<group>"; };
-		365112617747C5D443BF2A840DB9663D /* Pods-Test-App-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-iOS-frameworks.sh"; sourceTree = "<group>"; };
 		37F772D352A2FC46BF1837A5B3A67B53 /* MPVASTMediaFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTMediaFile.m; path = MoPubSDK/Internal/VAST/MPVASTMediaFile.m; sourceTree = "<group>"; };
 		390DA1A07162D5197A03397BC320894B /* mopub-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mopub-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
 		3917AA2F8C2AD35984749D952FE0B019 /* MPVASTAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTAd.m; path = MoPubSDK/Internal/VAST/MPVASTAd.m; sourceTree = "<group>"; };
+		391A1697B69E9DCF7CAC1FFD18C6F233 /* Pods-Test-App-SDKsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-App-SDKsUITests-dummy.m"; sourceTree = "<group>"; };
 		39570BA7B5B25E46C80188E31BFEEC13 /* MPCloseBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPCloseBtn.png; path = MoPubSDK/Resources/MPCloseBtn.png; sourceTree = "<group>"; };
 		39947688C23E901CCB5CDD9086E18311 /* MRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRConstants.h; path = MoPubSDK/Internal/MRAID/MRConstants.h; sourceTree = "<group>"; };
 		3A08B06B29B741923386428C5FCCFB19 /* MPPrivateBannerCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPPrivateBannerCustomEventDelegate.h; path = MoPubSDK/Internal/Banners/MPPrivateBannerCustomEventDelegate.h; sourceTree = "<group>"; };
@@ -605,6 +601,7 @@
 		4102CE2A21914DED0A0365456A868306 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButtonX@2x.png"; path = "MoPubSDK/Resources/MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
 		41B72E64796A510E390452723621C821 /* MPReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPReachabilityManager.m; path = MoPubSDK/Internal/MPReachabilityManager.m; sourceTree = "<group>"; };
 		4226722662F03EECA1F67504DE050A94 /* MOPUBPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBPlayerViewController.h; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerViewController.h; sourceTree = "<group>"; };
+		42FEB160087E1D8249926A5DA0DE72AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4385653C2B8B634878279EE2F477E79F /* MPAdBrowserController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MPAdBrowserController.xib; path = MoPubSDK/Internal/Common/MPAdBrowserController.xib; sourceTree = "<group>"; };
 		43EF78C86C842CC4E698B16D5058D248 /* MPHTMLInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTMLInterstitialViewController.h; path = MoPubSDK/Internal/HTML/MPHTMLInterstitialViewController.h; sourceTree = "<group>"; };
 		44F2C171FE48BDC5F257F0647992D54B /* MPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogging.h; path = MoPubSDK/Internal/Utility/MPLogging.h; sourceTree = "<group>"; };
@@ -623,6 +620,7 @@
 		4AD6938B9C17172971393758ECE04220 /* MRProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRProperty.m; path = MoPubSDK/Internal/MRAID/MRProperty.m; sourceTree = "<group>"; };
 		4BD0B19D78AEA7EDED8F1C8E32B26BC4 /* MPActivityViewControllerHelper+TweetShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPActivityViewControllerHelper+TweetShare.h"; path = "MoPubSDK/Internal/Common/MPActivityViewControllerHelper+TweetShare.h"; sourceTree = "<group>"; };
 		4BF161493034D50D73795FFDF3046C8A /* MPStaticNativeAdRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStaticNativeAdRenderer.m; path = MoPubSDK/NativeAds/MPStaticNativeAdRenderer.m; sourceTree = "<group>"; };
+		4C068B9657B7949BFDEE083DD4B098BD /* Pods-Test-App-SDKs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-App-SDKs.modulemap"; sourceTree = "<group>"; };
 		4C588C5DC57C8706F7341E2E6E615B6C /* MoPubAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoPubAdapter.framework; path = "MoPubAdapter-5.2.0.0/MoPubAdapter.framework"; sourceTree = "<group>"; };
 		4C9543142A918EAFA4488BFBDA74BECD /* MRError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRError.h; path = MoPubSDK/Internal/MRAID/MRError.h; sourceTree = "<group>"; };
 		4D0287C0465CC955578A7AF54CAD3F10 /* MPInternalUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInternalUtils.m; path = MoPubSDK/Internal/Utility/MPInternalUtils.m; sourceTree = "<group>"; };
@@ -633,7 +631,9 @@
 		4F89443A92D455AECF8B2F3D2AE5001A /* MPRewardedVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideo.m; path = MoPubSDK/RewardedVideo/MPRewardedVideo.m; sourceTree = "<group>"; };
 		4F9299F403FB7CEF5BDB0F4BCE896672 /* SOMBid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOMBid.swift; path = SOMYieldProbeSDK/SOMBid.swift; sourceTree = "<group>"; };
 		4FBDF42BB24C6AD1B330415B7546E67B /* MPVASTIndustryIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTIndustryIcon.m; path = MoPubSDK/Internal/VAST/MPVASTIndustryIcon.m; sourceTree = "<group>"; };
+		4FF8FD689A659DB497329994015EB96A /* Pods-Test-App-SDKs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-App-SDKs-acknowledgements.plist"; sourceTree = "<group>"; };
 		50D6572FA214B85ADAA4D67A71BD1D33 /* MoPub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoPub.h; path = MoPubSDK/MoPub.h; sourceTree = "<group>"; };
+		50DD64CDC1E53FDDF10F1CAABB9EC3B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512B4ACFC2B88979D474937975E1166E /* MPTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTimer.m; path = MoPubSDK/Internal/Utility/MPTimer.m; sourceTree = "<group>"; };
 		5262BB47A5A9B6D4C620BE2B4B320220 /* MPVASTTrackingEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTTrackingEvent.h; path = MoPubSDK/Internal/VAST/MPVASTTrackingEvent.h; sourceTree = "<group>"; };
 		53CF7A4E17D32741FD7B4946BF156B6C /* MPInterstitialAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialAdManager.h; path = MoPubSDK/Internal/Interstitials/MPInterstitialAdManager.h; sourceTree = "<group>"; };
@@ -643,7 +643,6 @@
 		548CF464648B600B95DACA3EE3BFD4E9 /* MPInterstitialAdController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialAdController.m; path = MoPubSDK/MPInterstitialAdController.m; sourceTree = "<group>"; };
 		548E9F38C9070A5E004957C270B3D4BE /* MPStreamAdPlacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPStreamAdPlacer.m; path = MoPubSDK/NativeAds/MPStreamAdPlacer.m; sourceTree = "<group>"; };
 		54FAFBFA49DAE2F291CDA7F8861BEF0F /* SOMAdapterLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOMAdapterLogger.swift; path = SOMMediationSDK/SOMAdapterLogger.swift; sourceTree = "<group>"; };
-		55E8E79571B58ABFAB0837F3DA89BD85 /* Pods-Test-App-iOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-App-iOSUITests-dummy.m"; sourceTree = "<group>"; };
 		57F277E9C1414DBDF8568305ED48D3EE /* MOPUBActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBActivityIndicatorView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBActivityIndicatorView.m; sourceTree = "<group>"; };
 		5802C35E74CECC2E7BB92E5DB8EAF6EC /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseBtn@2x.png"; path = "MoPubSDK/Resources/MPCloseBtn@2x.png"; sourceTree = "<group>"; };
 		5842F4418EB367D66B96D07FAE676B72 /* NSString+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSString+MPAdditions.h"; sourceTree = "<group>"; };
@@ -653,15 +652,17 @@
 		5C1926F8F66CEACA029AE795779AB7B8 /* SMAMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SMAMoatMobileAppKit.framework; path = SmaatoSDK/SMAMoatMobileAppKit.framework; sourceTree = "<group>"; };
 		5C4FF9878125A27F3B72416764AE7C32 /* MPNativeAdConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdConstants.h; path = MoPubSDK/NativeAds/MPNativeAdConstants.h; sourceTree = "<group>"; };
 		5C56BDCBFCC45B6F5AF3F9F47A9CA0CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5CE6E7A79AEB31BD618EB56C764DFBE3 /* Pods-Test-App-SDKs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-App-SDKs-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5DD8E90DF81CC1FA539B97888B1A0194 /* MRExpandModalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRExpandModalViewController.m; path = MoPubSDK/Internal/MRAID/MRExpandModalViewController.m; sourceTree = "<group>"; };
 		5E7894D7CEBD92B2F078519C0D6C8451 /* SOMMediationSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOMMediationSDK-umbrella.h"; sourceTree = "<group>"; };
-		5EC9053607649AB51AF2A3C4D098B09C /* Pods-Test-App-iOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-App-iOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5EEC6E88C89778C65CC71DF15A9049BF /* MPTableViewAdPlacerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTableViewAdPlacerCell.m; path = MoPubSDK/NativeAds/Internal/MPTableViewAdPlacerCell.m; sourceTree = "<group>"; };
 		5F9C8E8BFED5D471B544A7C8DF8F5E55 /* MRVideoPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRVideoPlayerManager.h; path = MoPubSDK/Internal/MRAID/MRVideoPlayerManager.h; sourceTree = "<group>"; };
+		5FFBE90659B69F748E4F1A314D5C9142 /* Pods-Test-App-SDKsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-SDKsUITests-resources.sh"; sourceTree = "<group>"; };
 		623AF74097FF8C3A9BF3D91FF1CF98D6 /* MPSessionTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPSessionTracker.m; path = MoPubSDK/Internal/Utility/MPSessionTracker.m; sourceTree = "<group>"; };
 		62A884155FE05CA253CB7C9E80DAB084 /* MPGlobal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPGlobal.m; path = MoPubSDK/Internal/Utility/MPGlobal.m; sourceTree = "<group>"; };
 		634E19601EF57C3450741A946BD6318A /* MPTableViewAdPlacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTableViewAdPlacer.m; path = MoPubSDK/NativeAds/MPTableViewAdPlacer.m; sourceTree = "<group>"; };
 		63DBA1981F71766AF03B2E5D6288E0DD /* MPVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTAd.h; path = MoPubSDK/Internal/VAST/MPVASTAd.h; sourceTree = "<group>"; };
+		64258659B51D2DAC3C522AEB574C842D /* Pods-Test-App-SDKsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-App-SDKsUITests-umbrella.h"; sourceTree = "<group>"; };
 		64E7BB3EFE2AA4CDC9D6B13DDAF87D9D /* MPAdConversionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdConversionTracker.h; path = MoPubSDK/MPAdConversionTracker.h; sourceTree = "<group>"; };
 		65367F1250C9F06549B5018262180454 /* MPNativeAd+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPNativeAd+Internal.h"; path = "MoPubSDK/NativeAds/Internal/MPNativeAd+Internal.h"; sourceTree = "<group>"; };
 		657683F2879ADAE5C5C4E9C367C3444F /* MPVASTCreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTCreative.h; path = MoPubSDK/Internal/VAST/MPVASTCreative.h; sourceTree = "<group>"; };
@@ -673,13 +674,15 @@
 		67D45ACB86E1F6C266C212C50BA1011B /* MPURLResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPURLResolver.m; path = MoPubSDK/Internal/Common/MPURLResolver.m; sourceTree = "<group>"; };
 		67DA6E4401F3C4320CFACA6861C9BC4B /* MPNativeAdRendering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendering.h; path = MoPubSDK/NativeAds/MPNativeAdRendering.h; sourceTree = "<group>"; };
 		680FB7A9AB16568AFA59E93E53C894FB /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPCloseButtonX@3x.png"; path = "MoPubSDK/Resources/MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
-		6885BF6C81862635F4683716B995D22E /* Pods-Test-App-iOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-App-iOSUITests.modulemap"; sourceTree = "<group>"; };
+		68579A6D74213E9462E11D20389DB50E /* Pods-Test-App-SDKs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-SDKs-frameworks.sh"; sourceTree = "<group>"; };
 		692D67143186F8C4CF0C24267816DDE0 /* MPMediationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMediationManager.m; path = MoPubSDK/Internal/MPMediationManager.m; sourceTree = "<group>"; };
 		69CECCF032741E9DE039AF17203124A8 /* MPMoPubNativeCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMoPubNativeCustomEvent.h; path = MoPubSDK/NativeAds/Internal/MPMoPubNativeCustomEvent.h; sourceTree = "<group>"; };
 		6BC5CCC4DAB3C98EB30BFA79F815DA82 /* MPLastResortDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLastResortDelegate.h; path = MoPubSDK/Internal/Common/MPLastResortDelegate.h; sourceTree = "<group>"; };
 		6C074FB297193A139A94360D4722BA69 /* MRBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBundleManager.h; path = MoPubSDK/Internal/MRAID/MRBundleManager.h; sourceTree = "<group>"; };
 		6C695B0FB568691335D74A0FC10F9C84 /* MoPub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MoPub.m; path = MoPubSDK/MoPub.m; sourceTree = "<group>"; };
+		6E5DD6ED13906F8A381816080407E40A /* Pods_Test_App_SDKs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_App_SDKs.framework; path = "Pods-Test-App-SDKs.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE62D7E85C94DAAACD4FD5C38B6CC51 /* MPMRAIDInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMRAIDInterstitialCustomEvent.h; path = MoPubSDK/Internal/MRAID/MPMRAIDInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		709719955C18B6CF102F90D1C1E93523 /* Pods-Test-App-SDKs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-App-SDKs-dummy.m"; sourceTree = "<group>"; };
 		71B9E8C6FAD228A7706FB02EE3103477 /* MPBannerCustomEvent+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPBannerCustomEvent+Internal.m"; path = "MoPubSDK/Internal/Banners/MPBannerCustomEvent+Internal.m"; sourceTree = "<group>"; };
 		72B4858FDE0FB4874D7171FAA9BEC690 /* MRBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRBridge.m; path = MoPubSDK/Internal/MRAID/MRBridge.m; sourceTree = "<group>"; };
 		72DFAE7AE493C005EEA359ACA057B5C1 /* MPViewabilityTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPViewabilityTracker.m; path = MoPubSDK/Viewability/MPViewabilityTracker.m; sourceTree = "<group>"; };
@@ -690,7 +693,6 @@
 		7622D01E58DE6730B21C4EEA69586658 /* MPMoPubNativeCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubNativeCustomEvent.m; path = MoPubSDK/NativeAds/Internal/MPMoPubNativeCustomEvent.m; sourceTree = "<group>"; };
 		76EFBCFB36FD97E64E088A75859670C4 /* MPVASTTrackingEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTTrackingEvent.m; path = MoPubSDK/Internal/VAST/MPVASTTrackingEvent.m; sourceTree = "<group>"; };
 		777B1324C222BE417C4EAFA49F402F49 /* MPAdPositioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAdPositioning.m; path = MoPubSDK/NativeAds/MPAdPositioning.m; sourceTree = "<group>"; };
-		77999BE996F1DCF317B569C9A9EE9107 /* Pods-Test-App-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		77B5849C26B03D77B5AD016D03E1B93C /* MPInterstitialCustomEventAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialCustomEventAdapter.h; path = MoPubSDK/Internal/Interstitials/MPInterstitialCustomEventAdapter.h; sourceTree = "<group>"; };
 		7841653CD9060A21DCE91699F21CA6AA /* MPVASTCompanionAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTCompanionAd.m; path = MoPubSDK/Internal/VAST/MPVASTCompanionAd.m; sourceTree = "<group>"; };
 		7913720A451516D7AE0A148037775187 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -715,16 +717,13 @@
 		8719B43B5B9996E338E1067E03E10981 /* SOMMediationSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOMMediationSDK-dummy.m"; sourceTree = "<group>"; };
 		88753E9BD8ED8FEF0570507A9FBFE51B /* MPRewardedVideoReward.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoReward.m; path = MoPubSDK/RewardedVideo/MPRewardedVideoReward.m; sourceTree = "<group>"; };
 		88C5BFA07217EBFAFA77CBF9AB5D9829 /* MPUserInteractionGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPUserInteractionGestureRecognizer.h; path = MoPubSDK/Internal/Utility/MPUserInteractionGestureRecognizer.h; sourceTree = "<group>"; };
-		88FD0362010FE39154D1FA5E114D2898 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F306D90DB9B76354EE1783D901ECF9 /* Pods-Test-App-SDKsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-SDKsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		89172834802B047D5A159A77B1BF7C2E /* MOPUBActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBActivityIndicatorView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBActivityIndicatorView.h; sourceTree = "<group>"; };
 		89582F46AFF181920822FEAB1F070F3D /* MPRewardedVideoCustomEvent+Caching.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MPRewardedVideoCustomEvent+Caching.m"; path = "MoPubSDK/RewardedVideo/MPRewardedVideoCustomEvent+Caching.m"; sourceTree = "<group>"; };
 		8ABB5B54D81B54654E079C24B1F231D4 /* MPHTTPNetworkTaskData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTTPNetworkTaskData.h; path = MoPubSDK/Internal/MPHTTPNetworkTaskData.h; sourceTree = "<group>"; };
 		8AD95340DB0BB4590FB5B3275EA907E7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		8AEA0A148508C8D03718F3E244D7E05B /* SOMAdapterYieldlab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOMAdapterYieldlab.swift; path = SOMMediationSDK/SOMAdapterYieldlab.swift; sourceTree = "<group>"; };
-		8B5A127661664F4C0E828D2479A56D6C /* Pods-Test-App-iOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-App-iOSUITests-umbrella.h"; sourceTree = "<group>"; };
-		8C101F70DB4609A00F4D7692FB73EDE8 /* Pods-Test-App-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-App-iOS.modulemap"; sourceTree = "<group>"; };
 		8C1287DDB0CAEE92124FD0B41B14633B /* MPURLResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPURLResolver.h; path = MoPubSDK/Internal/Common/MPURLResolver.h; sourceTree = "<group>"; };
-		8C29F36A8CD31DD79BDDB3393F4EAE16 /* Pods-Test-App-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8C8FBC65704368F98E62AE486E45470B /* MPBannerCustomEvent+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPBannerCustomEvent+Internal.h"; path = "MoPubSDK/Internal/Banners/MPBannerCustomEvent+Internal.h"; sourceTree = "<group>"; };
 		8C9FB3B13004C1132495CCB6F88492D7 /* MPHTTPNetworkSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPHTTPNetworkSession.h; path = MoPubSDK/Internal/MPHTTPNetworkSession.h; sourceTree = "<group>"; };
 		8D262291C23BCF70EDB568EC9625BF2C /* MPNativeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeView.h; path = MoPubSDK/NativeAds/Internal/MPNativeView.h; sourceTree = "<group>"; };
@@ -738,12 +737,12 @@
 		8F8614B1D5195E5BAA81F90B3BEAFF4B /* MPMRAIDInterstitialCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMRAIDInterstitialCustomEvent.m; path = MoPubSDK/Internal/MRAID/MPMRAIDInterstitialCustomEvent.m; sourceTree = "<group>"; };
 		900BB4472E66EE726A8F4D443B022D06 /* MPBannerCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBannerCustomEventDelegate.h; path = MoPubSDK/MPBannerCustomEventDelegate.h; sourceTree = "<group>"; };
 		9023989E3B0EBA852CFFDBB19EE0AE57 /* MPAdvancedBiddingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdvancedBiddingManager.h; path = MoPubSDK/Internal/MPAdvancedBiddingManager.h; sourceTree = "<group>"; };
+		90782634345CE31919F82E608DF7CCEE /* SOMYieldProbeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SOMYieldProbeSDK.framework; path = SOMYieldProbeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90933EABE0B50503E8DEA8725452643F /* MPInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPInterstitialViewController.h; path = MoPubSDK/Internal/Interstitials/MPInterstitialViewController.h; sourceTree = "<group>"; };
 		910A736EE7737E0F48F52CF2F2FFC9A8 /* SOMYieldProbeSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOMYieldProbeSDK.xcconfig; sourceTree = "<group>"; };
 		9119879565F058EFCE38CE6B37F908FC /* NSJSONSerialization+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/NSJSONSerialization+MPAdditions.h"; sourceTree = "<group>"; };
 		911A2387280A84D18F230ACAF6DC9FE0 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPPlayBtn@3x.png"; path = "MoPubSDK/Resources/MPPlayBtn@3x.png"; sourceTree = "<group>"; };
 		91C41BDA725A8064A13AF4F3C97E2AB2 /* mopub-ios-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mopub-ios-sdk.xcconfig"; sourceTree = "<group>"; };
-		92C91FA9E66FCC26F4F74CBB400F32CE /* SOMMediationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SOMMediationSDK.framework; path = SOMMediationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CCFF0620B688333EBE64F2CD58014F /* MPIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPIdentityProvider.h; path = MoPubSDK/Internal/Utility/MPIdentityProvider.h; sourceTree = "<group>"; };
 		934A7F65EDC33CF35B8FB425CE1F28D1 /* MPVASTDurationOffset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPVASTDurationOffset.h; path = MoPubSDK/Internal/VAST/MPVASTDurationOffset.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -758,7 +757,6 @@
 		9949D0CE6AAC51D642BB3BD81FF70FE5 /* MPNativeAdData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdData.h; path = MoPubSDK/NativeAds/MPNativeAdData.h; sourceTree = "<group>"; };
 		997317D94F64E0868218EF8BA2D1576A /* mopub-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "mopub-ios-sdk.modulemap"; sourceTree = "<group>"; };
 		99B0321F3DFCFF9C9926BB9AC698DA9D /* MPDAAIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPDAAIcon.png; path = MoPubSDK/Resources/MPDAAIcon.png; sourceTree = "<group>"; };
-		9A2C790EB9566A09D6CEFAB69596D054 /* Pods-Test-App-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-App-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C4489C2879316E7500D107D23BF6B7A /* MPRewardedVideoAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoAdapter.h; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdapter.h; sourceTree = "<group>"; };
 		9C69B14E25A97634FAC28A86A153EECF /* UIColor+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIColor+MPAdditions.h"; sourceTree = "<group>"; };
 		9CB400BF0642806D0C15ED1EDC498C83 /* MRBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRBridge.h; path = MoPubSDK/Internal/MRAID/MRBridge.h; sourceTree = "<group>"; };
@@ -784,6 +782,7 @@
 		A5B773518CD960A0FFD2A8C6CDAFCBE5 /* MPMRAIDInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMRAIDInterstitialViewController.h; path = MoPubSDK/Internal/MRAID/MPMRAIDInterstitialViewController.h; sourceTree = "<group>"; };
 		A65EF8D03E3F92C72BBF2874213112E4 /* MPXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPXMLParser.h; path = MoPubSDK/Internal/Common/MPXMLParser.h; sourceTree = "<group>"; };
 		A8136579FFBC5BF0E6C32CAE9D6F3B8D /* MPBaseBannerAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBaseBannerAdapter.m; path = MoPubSDK/Internal/Banners/MPBaseBannerAdapter.m; sourceTree = "<group>"; };
+		A876374C790FDA997B07AE8D77313E2A /* Pods-Test-App-SDKsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-SDKsUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A93062639AFBAFB501DA0A340C9497CF /* MPRewardedVideoAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoAdapter.m; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdapter.m; sourceTree = "<group>"; };
 		A95ED8F7BFED681ED0B42BF90CA01803 /* MPNativePositionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativePositionSource.m; path = MoPubSDK/NativeAds/Internal/MPNativePositionSource.m; sourceTree = "<group>"; };
 		AA6349C499B6C54AF88C30069D04A3E1 /* MRNativeCommandHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRNativeCommandHandler.m; path = MoPubSDK/Internal/MRAID/MRNativeCommandHandler.m; sourceTree = "<group>"; };
@@ -803,18 +802,19 @@
 		B169436D0DFB47EBD164A1472CDB9297 /* MPConsentError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPConsentError.h; path = MoPubSDK/MPConsentError.h; sourceTree = "<group>"; };
 		B17E338841138505EF084D64F7235D66 /* MPAnalyticsTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPAnalyticsTracker.m; path = MoPubSDK/Internal/Utility/MPAnalyticsTracker.m; sourceTree = "<group>"; };
 		B1C865E23805BFD55B2223FB76077195 /* MPGeolocationProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPGeolocationProvider.m; path = MoPubSDK/Internal/Utility/MPGeolocationProvider.m; sourceTree = "<group>"; };
+		B2784D858172E3604A651CD2D0D90E45 /* Pods-Test-App-SDKsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-SDKsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2A938AF7808683CF6DC08AD594001B4 /* MPCollectionViewAdPlacerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCollectionViewAdPlacerCell.m; path = MoPubSDK/NativeAds/Internal/MPCollectionViewAdPlacerCell.m; sourceTree = "<group>"; };
 		B309FE5998358CC5D27D65502E1C2E9C /* MRCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRCommand.h; path = MoPubSDK/Internal/MRAID/MRCommand.h; sourceTree = "<group>"; };
 		B3D282B4057A1D9AE823D00056646FD9 /* MPStreamAdPlacementData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPStreamAdPlacementData.h; path = MoPubSDK/NativeAds/MPStreamAdPlacementData.h; sourceTree = "<group>"; };
 		B411F3783DC78DD64B22C6980A800137 /* MPReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPReachabilityManager.h; path = MoPubSDK/Internal/MPReachabilityManager.h; sourceTree = "<group>"; };
 		B42703A4CBC368B0025E19DC83953E16 /* MOPUBNativeVideoAdRendererSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoAdRendererSettings.m; path = MoPubSDK/NativeVideo/MOPUBNativeVideoAdRendererSettings.m; sourceTree = "<group>"; };
 		B48E8790C002D27E18E2C2B87E770FBE /* MOPUBReplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBReplayView.m; path = MoPubSDK/NativeVideo/Internal/MOPUBReplayView.m; sourceTree = "<group>"; };
+		B4DFB5F7D5CBBEAFFDC47B3C34732610 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MoPub.framework; path = "mopub-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52CBB848CB788C980467EB258BF385F /* MPRewardedVideoAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoAdManager.m; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdManager.m; sourceTree = "<group>"; };
 		B62250CA39B1848FC5C63EF2BCD2AAD5 /* MPNativeAdRendererSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendererSettings.h; path = MoPubSDK/NativeAds/MPNativeAdRendererSettings.h; sourceTree = "<group>"; };
 		B7E237D5C465FE5C4D607FA12793D3A1 /* MPClosableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPClosableView.h; path = MoPubSDK/Internal/Common/MPClosableView.h; sourceTree = "<group>"; };
 		B86D79050D42A372FD89F27B9A607506 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPPlayBtn@2x.png"; path = "MoPubSDK/Resources/MPPlayBtn@2x.png"; sourceTree = "<group>"; };
 		B8C86EFF5688604948524790EDF33BC9 /* MPRewardedVideoAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideoAdManager.h; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoAdManager.h; sourceTree = "<group>"; };
-		B8CE2492FACEFC940381D9A3A668A48B /* Pods-Test-App-iOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-iOSUITests-resources.sh"; sourceTree = "<group>"; };
 		B9A0B289E920F2CC43F0913115AD1D30 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MPUnmutedBtn.png; path = MoPubSDK/Resources/MPUnmutedBtn.png; sourceTree = "<group>"; };
 		B9EB2E5A10C1421F4C4A7B539ED0DD37 /* NSString+MPConsentStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MPConsentStatus.h"; path = "MoPubSDK/Internal/Utility/Categories/NSString+MPConsentStatus.h"; sourceTree = "<group>"; };
 		BA79E360A3BFC34D09172F1C7106D0CC /* MPRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoCustomEvent.m; path = MoPubSDK/RewardedVideo/MPRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
@@ -848,6 +848,7 @@
 		C87A4EE5B5F0F5D1663933FCB1A37D19 /* UIWebView+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+MPAdditions.h"; path = "MoPubSDK/Internal/Utility/Categories/UIWebView+MPAdditions.h"; sourceTree = "<group>"; };
 		C8E8A80F260633CECECB753FD93371D8 /* MPBannerCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBannerCustomEvent.m; path = MoPubSDK/MPBannerCustomEvent.m; sourceTree = "<group>"; };
 		C98C7A66220BED2262687C3F0B9CA68C /* MPRewardedVideo+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPRewardedVideo+Internal.h"; path = "MoPubSDK/RewardedVideo/Internal/MPRewardedVideo+Internal.h"; sourceTree = "<group>"; };
+		C99345C02799291A5E20DDD86DC4841E /* Pods-Test-App-SDKs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-SDKs.release.xcconfig"; sourceTree = "<group>"; };
 		C9A099A90E8C3E3A5F21105C4D14637A /* MPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPError.h; path = MoPubSDK/Internal/Utility/MPError.h; sourceTree = "<group>"; };
 		CA1B96B2E53B9AD905DFAFEBC8B6AFEB /* SOMAdSlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOMAdSlot.swift; path = SOMYieldProbeSDK/SOMAdSlot.swift; sourceTree = "<group>"; };
 		CAAAC5F777863E3406A0F4139F491A46 /* MPAdServerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdServerKeys.h; path = MoPubSDK/Internal/MPAdServerKeys.h; sourceTree = "<group>"; };
@@ -857,10 +858,10 @@
 		CD5966A695094161B3496802E0181D70 /* MPNativeAdRendererConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRendererConstants.h; path = MoPubSDK/NativeAds/Internal/MPNativeAdRendererConstants.h; sourceTree = "<group>"; };
 		CDE88ABA2CF447DBED2FA025B0ADF2BE /* SOMGeolocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOMGeolocation.swift; path = SOMYieldProbeSDK/SOMGeolocation.swift; sourceTree = "<group>"; };
 		CFA453698C5FC8805688BC334BAEF691 /* MPNativeAdRendererConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdRendererConfiguration.m; path = MoPubSDK/NativeAds/MPNativeAdRendererConfiguration.m; sourceTree = "<group>"; };
+		D0715FC802EB6504B0E1FE0E694348EE /* Pods-Test-App-SDKs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-SDKs-resources.sh"; sourceTree = "<group>"; };
 		D0922FF98EC4B96F24C375C3DD328E05 /* UIColor+MPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MPAdditions.m"; path = "MoPubSDK/Internal/Utility/Categories/UIColor+MPAdditions.m"; sourceTree = "<group>"; };
 		D0A0134A1C96E138FB54CA085B2EAC64 /* MPClientAdPositioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPClientAdPositioning.h; path = MoPubSDK/NativeAds/MPClientAdPositioning.h; sourceTree = "<group>"; };
 		D1B1B35D2BF3628BA1D7A01E43060EEF /* MPProgressOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPProgressOverlayView.h; path = MoPubSDK/Internal/Common/MPProgressOverlayView.h; sourceTree = "<group>"; };
-		D2C9EC3F24D10357B53A70BC1D145204 /* Pods-Test-App-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-App-iOS-resources.sh"; sourceTree = "<group>"; };
 		D3A1713070838317389B0A4D3B1279F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		D574E1462B3A73436E5D07B43949CA43 /* MPNativeAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAd.m; path = MoPubSDK/NativeAds/MPNativeAd.m; sourceTree = "<group>"; };
 		D57DC7FB5C922B3E0BA6AA9D5445B381 /* MPUserInteractionGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUserInteractionGestureRecognizer.m; path = MoPubSDK/Internal/Utility/MPUserInteractionGestureRecognizer.m; sourceTree = "<group>"; };
@@ -876,7 +877,6 @@
 		D8ED83A12ED460A1D4A405859817C211 /* MPMoPubRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMoPubRewardedVideoCustomEvent.h; path = MoPubSDK/RewardedVideo/Internal/MPMoPubRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
 		DA08C21ABC000D26CCADFA7D85B670A0 /* MPNativeCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeCache.m; path = MoPubSDK/NativeAds/Internal/MPNativeCache.m; sourceTree = "<group>"; };
 		DA56C3AD5220FDD7628001B8FAEA1F6D /* MOPUBNativeVideoAdRendererSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBNativeVideoAdRendererSettings.h; path = MoPubSDK/NativeVideo/MOPUBNativeVideoAdRendererSettings.h; sourceTree = "<group>"; };
-		DAE5A31CC5176CC7098C5659551DD2AD /* Pods-Test-App-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-App-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC3668E9BD37CCA21A439BA06BB974A1 /* MPMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMemoryCache.h; path = MoPubSDK/Internal/MPMemoryCache.h; sourceTree = "<group>"; };
 		DC9EB6059E3B6BA028B4F05581B1B21A /* MPRewardedVideoConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPRewardedVideoConnection.m; path = MoPubSDK/RewardedVideo/Internal/MPRewardedVideoConnection.m; sourceTree = "<group>"; };
 		DCAFC18909EB5EB121695ADAADC4E7AB /* MPBannerAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBannerAdManager.h; path = MoPubSDK/Internal/Banners/MPBannerAdManager.h; sourceTree = "<group>"; };
@@ -893,8 +893,11 @@
 		E34A0E2A35A45FC38EE414759BBB0053 /* MPNativeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeView.m; path = MoPubSDK/NativeAds/Internal/MPNativeView.m; sourceTree = "<group>"; };
 		E390434E78B1A22DC1B9EC35529A3702 /* MPBool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPBool.h; path = MoPubSDK/MPBool.h; sourceTree = "<group>"; };
 		E3ABDEAE23F2769E3DE6424B02F91416 /* MPTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTimer.h; path = MoPubSDK/Internal/Utility/MPTimer.h; sourceTree = "<group>"; };
+		E3EECCA2C08BD54F4AE1C16F449B8F2F /* Pods-Test-App-SDKsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-App-SDKsUITests.modulemap"; sourceTree = "<group>"; };
 		E54E98B5E0A0E1312B1FC07C3C03B1A0 /* MPInterstitialCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialCustomEvent.m; path = MoPubSDK/MPInterstitialCustomEvent.m; sourceTree = "<group>"; };
+		E578F9550FF79E448CBDC53C14DFA993 /* Pods-Test-App-SDKsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-App-SDKsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5AFE1AB252603B3893D4026B0693DBC /* MPDiskLRUCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDiskLRUCache.m; path = MoPubSDK/NativeAds/Internal/MPDiskLRUCache.m; sourceTree = "<group>"; };
+		E7351C5D45E69417D6F5B81956FB9D97 /* Pods-Test-App-SDKsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-App-SDKsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E77505A19BFEF58D6FE8DA942200125F /* MPVideoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVideoConfig.m; path = MoPubSDK/Internal/Common/MPVideoConfig.m; sourceTree = "<group>"; };
 		E81AC2683350A68B842341A36D1DBB72 /* MOPUBNativeVideoImpressionAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBNativeVideoImpressionAgent.m; path = MoPubSDK/NativeVideo/Internal/MOPUBNativeVideoImpressionAgent.m; sourceTree = "<group>"; };
 		E8627CCFAFB6D22EE456D623663970A4 /* SOMYieldProbeSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOMYieldProbeSDK-umbrella.h"; sourceTree = "<group>"; };
@@ -904,7 +907,6 @@
 		EAA03DB12594C1E4FE4D03F4B7B2A9EF /* MPSessionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSessionTracker.h; path = MoPubSDK/Internal/Utility/MPSessionTracker.h; sourceTree = "<group>"; };
 		EAB067A8FDE0E7D9CBA78705C8DB99A7 /* MPVASTMacroProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPVASTMacroProcessor.m; path = MoPubSDK/Internal/VAST/MPVASTMacroProcessor.m; sourceTree = "<group>"; };
 		EAB53B0521EC445FE4CB832A71BC0345 /* MOPUBPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBPlayerViewController.m; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerViewController.m; sourceTree = "<group>"; };
-		EAE1ACC4C5AC497243ACFF945CAA6081 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MoPub.framework; path = "mopub-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8A0F2784129336AF2B12FD09DD0F81 /* MPAdWebViewAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdWebViewAgent.h; path = MoPubSDK/Internal/HTML/MPAdWebViewAgent.h; sourceTree = "<group>"; };
 		EC55B35457E054CD7E27FA91C1C87A07 /* MPCountdownTimerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCountdownTimerView.m; path = MoPubSDK/Internal/Common/MPCountdownTimerView.m; sourceTree = "<group>"; };
 		EC6083A20E0BD50D818B843007859E25 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPDAAIcon@2x.png"; path = "MoPubSDK/Resources/MPDAAIcon@2x.png"; sourceTree = "<group>"; };
@@ -915,9 +917,9 @@
 		ED28D04FF13D57CE1962866FF113033D /* MPNativeCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeCustomEvent.h; path = MoPubSDK/NativeAds/MPNativeCustomEvent.h; sourceTree = "<group>"; };
 		ED70C845FC496FBBACDDC356A31CFE75 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MPUnmutedBtn@2x.png"; path = "MoPubSDK/Resources/MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
 		EF1F11AB7B7701C87648A32CD036B9C6 /* MPCoreInstanceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCoreInstanceProvider.h; path = MoPubSDK/Internal/MPCoreInstanceProvider.h; sourceTree = "<group>"; };
-		EFB26998A6E0A7E2C89EEB6F9649F820 /* Pods_Test_App_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_App_iOS.framework; path = "Pods-Test-App-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13E640C1475AC3BCAFBC14BA1E8533D /* MPMoPubNativeAdAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubNativeAdAdapter.m; path = MoPubSDK/NativeAds/Internal/MPMoPubNativeAdAdapter.m; sourceTree = "<group>"; };
 		F2A57D7C06DED46739342F5AF456A532 /* MPMoPubConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubConfiguration.m; path = MoPubSDK/MPMoPubConfiguration.m; sourceTree = "<group>"; };
+		F2AF7A508837E193877153DDB567A033 /* Pods-Test-App-SDKs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-App-SDKs-umbrella.h"; sourceTree = "<group>"; };
 		F40B5D7FF0B06DD3D39207B7F2F7DD1D /* MOPUBPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBPlayerManager.h; path = MoPubSDK/NativeVideo/Internal/MOPUBPlayerManager.h; sourceTree = "<group>"; };
 		F45A8C852E8CAA4218CAFBA746116FAA /* MPNativeAdError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNativeAdError.m; path = MoPubSDK/NativeAds/MPNativeAdError.m; sourceTree = "<group>"; };
 		F488AA4E29728BB8D3157FE8A6597CEA /* MPNativeAdRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPNativeAdRenderer.h; path = MoPubSDK/NativeAds/MPNativeAdRenderer.h; sourceTree = "<group>"; };
@@ -928,12 +930,10 @@
 		F79CCE2CE4F51A05839CAB376971B5E7 /* MPRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPRewardedVideo.h; path = MoPubSDK/RewardedVideo/MPRewardedVideo.h; sourceTree = "<group>"; };
 		F860950F52267581795A65910B077114 /* MPAdDestinationDisplayAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPAdDestinationDisplayAgent.h; path = MoPubSDK/Internal/Common/MPAdDestinationDisplayAgent.h; sourceTree = "<group>"; };
 		F873DE860FD32D5638F4747AB253E3C2 /* MPURLActionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPURLActionInfo.h; path = MoPubSDK/Internal/Common/MPURLActionInfo.h; sourceTree = "<group>"; };
-		F8A7980F0039617CA2FC53352599B663 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F98801CF4A7879AD238DD40EF3C21CC8 /* MPLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPLogLevel.h; path = MoPubSDK/MPLogLevel.h; sourceTree = "<group>"; };
 		F9A1FF5C63CD5389AFEA95A4532C7637 /* MPInterstitialCustomEventAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPInterstitialCustomEventAdapter.m; path = MoPubSDK/Internal/Interstitials/MPInterstitialCustomEventAdapter.m; sourceTree = "<group>"; };
 		F9CB757BDF289EE00DA8519ED0C3E651 /* MPConsentChangedNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPConsentChangedNotification.h; path = MoPubSDK/MPConsentChangedNotification.h; sourceTree = "<group>"; };
 		FA62395C3C41D5A92EBFE6603D5FA406 /* MPMoPubRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMoPubRewardedVideoCustomEvent.m; path = MoPubSDK/RewardedVideo/Internal/MPMoPubRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
-		FB01BF502849D0BB5F60591DB400151A /* Pods-Test-App-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-App-iOS-umbrella.h"; sourceTree = "<group>"; };
 		FC3A2F9687AE4B652A9C8045FB8D596E /* MPMRAIDInterstitialViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPMRAIDInterstitialViewController.m; path = MoPubSDK/Internal/MRAID/MPMRAIDInterstitialViewController.m; sourceTree = "<group>"; };
 		FC596403E9B7BB7D19728FDF030B3CCE /* MOPUBReplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPUBReplayView.h; path = MoPubSDK/NativeVideo/Internal/MOPUBReplayView.h; sourceTree = "<group>"; };
 		FC8DE218B915FDCCE779050E47B617A2 /* MOPUBExperimentProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOPUBExperimentProvider.m; path = MoPubSDK/Internal/Utility/MOPUBExperimentProvider.m; sourceTree = "<group>"; };
@@ -949,35 +949,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		10022DF519E771E3817A5A490730E947 /* Frameworks */ = {
+		41119EB75B6BEE9AB050E916D0C45B62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A063ACC9D084717B3D482345F0952C /* Foundation.framework in Frameworks */,
+				A760E6DC11B486DF53DA7CFF16198C93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50F09735526C86359B3C41649B7F6BDA /* Frameworks */ = {
+		C17696F91AAA427C0E0566D54B655E98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F4CBE04FCB60164176108CEE7B1CED /* Foundation.framework in Frameworks */,
+				0C23E18340065F32696B632921BC3769 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AE1C93E5B3E2F26CE62DF680BCFE906 /* Frameworks */ = {
+		C6EB717C1440DD3FD048563C16953781 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA8334BAA05C7599FA1C23A172BE83A /* Foundation.framework in Frameworks */,
+				B06BB0889C60E3575F1B10F97C9764F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6DF55AAB7B5E28306B0D84EF932CF7A /* Frameworks */ = {
+		EA69F9DAF87ECF0ED63C01AE289B33DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294680EC937B05D01057E6764B428ACE /* Foundation.framework in Frameworks */,
+				3D612E4BF2772E3C95E984B6E4F6A8D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,6 +1030,54 @@
 			path = "mopub-ios-sdk";
 			sourceTree = "<group>";
 		};
+		1F5A92E82EFAF639051179C752FE19B1 /* Pods-Test-App-SDKsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50DD64CDC1E53FDDF10F1CAABB9EC3B3 /* Info.plist */,
+				E3EECCA2C08BD54F4AE1C16F449B8F2F /* Pods-Test-App-SDKsUITests.modulemap */,
+				E578F9550FF79E448CBDC53C14DFA993 /* Pods-Test-App-SDKsUITests-acknowledgements.markdown */,
+				E7351C5D45E69417D6F5B81956FB9D97 /* Pods-Test-App-SDKsUITests-acknowledgements.plist */,
+				391A1697B69E9DCF7CAC1FFD18C6F233 /* Pods-Test-App-SDKsUITests-dummy.m */,
+				A876374C790FDA997B07AE8D77313E2A /* Pods-Test-App-SDKsUITests-frameworks.sh */,
+				5FFBE90659B69F748E4F1A314D5C9142 /* Pods-Test-App-SDKsUITests-resources.sh */,
+				64258659B51D2DAC3C522AEB574C842D /* Pods-Test-App-SDKsUITests-umbrella.h */,
+				88F306D90DB9B76354EE1783D901ECF9 /* Pods-Test-App-SDKsUITests.debug.xcconfig */,
+				B2784D858172E3604A651CD2D0D90E45 /* Pods-Test-App-SDKsUITests.release.xcconfig */,
+			);
+			name = "Pods-Test-App-SDKsUITests";
+			path = "Target Support Files/Pods-Test-App-SDKsUITests";
+			sourceTree = "<group>";
+		};
+		23CBB791B4385F27EB0AB3BAF6B3797A /* Pods-Test-App-SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				42FEB160087E1D8249926A5DA0DE72AF /* Info.plist */,
+				4C068B9657B7949BFDEE083DD4B098BD /* Pods-Test-App-SDKs.modulemap */,
+				5CE6E7A79AEB31BD618EB56C764DFBE3 /* Pods-Test-App-SDKs-acknowledgements.markdown */,
+				4FF8FD689A659DB497329994015EB96A /* Pods-Test-App-SDKs-acknowledgements.plist */,
+				709719955C18B6CF102F90D1C1E93523 /* Pods-Test-App-SDKs-dummy.m */,
+				68579A6D74213E9462E11D20389DB50E /* Pods-Test-App-SDKs-frameworks.sh */,
+				D0715FC802EB6504B0E1FE0E694348EE /* Pods-Test-App-SDKs-resources.sh */,
+				F2AF7A508837E193877153DDB567A033 /* Pods-Test-App-SDKs-umbrella.h */,
+				08B8F579A181C77475259809F7432DFA /* Pods-Test-App-SDKs.debug.xcconfig */,
+				C99345C02799291A5E20DDD86DC4841E /* Pods-Test-App-SDKs.release.xcconfig */,
+			);
+			name = "Pods-Test-App-SDKs";
+			path = "Target Support Files/Pods-Test-App-SDKs";
+			sourceTree = "<group>";
+		};
+		27691A75E39CD6CF009E5D8949DFC794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DFB5F7D5CBBEAFFDC47B3C34732610 /* MoPub.framework */,
+				6E5DD6ED13906F8A381816080407E40A /* Pods_Test_App_SDKs.framework */,
+				0516342F71E18107E92601F36A5AD971 /* Pods_Test_App_SDKsUITests.framework */,
+				1C4C257D2D531AA328F9C4E1A59BA9EC /* SOMMediationSDK.framework */,
+				90782634345CE31919F82E608DF7CCEE /* SOMYieldProbeSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		280D8F91E152272DC1875FED0ABA7881 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1075,24 +1123,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3E44CDCBDB1B5FA790931334760FF9ED /* Pods-Test-App-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				88FD0362010FE39154D1FA5E114D2898 /* Info.plist */,
-				8C101F70DB4609A00F4D7692FB73EDE8 /* Pods-Test-App-iOS.modulemap */,
-				0F91D869AE949A44321ED48F1D8BBD41 /* Pods-Test-App-iOS-acknowledgements.markdown */,
-				9A2C790EB9566A09D6CEFAB69596D054 /* Pods-Test-App-iOS-acknowledgements.plist */,
-				1421E119AE26D1BD83D050B14A4898D1 /* Pods-Test-App-iOS-dummy.m */,
-				365112617747C5D443BF2A840DB9663D /* Pods-Test-App-iOS-frameworks.sh */,
-				D2C9EC3F24D10357B53A70BC1D145204 /* Pods-Test-App-iOS-resources.sh */,
-				FB01BF502849D0BB5F60591DB400151A /* Pods-Test-App-iOS-umbrella.h */,
-				07094EB6AA72A49F75F696BD37F24A38 /* Pods-Test-App-iOS.debug.xcconfig */,
-				8C29F36A8CD31DD79BDDB3393F4EAE16 /* Pods-Test-App-iOS.release.xcconfig */,
-			);
-			name = "Pods-Test-App-iOS";
-			path = "Target Support Files/Pods-Test-App-iOS";
-			sourceTree = "<group>";
-		};
 		45503593CB654BF8387B8BBF88897EDF /* SmaatoSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -1124,11 +1154,11 @@
 			path = GoogleMobileAdsMediationMoPub;
 			sourceTree = "<group>";
 		};
-		785802F57474B87FF560E87043E8280A /* Targets Support Files */ = {
+		77DF417351070BCD824375FD756DB18A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E44CDCBDB1B5FA790931334760FF9ED /* Pods-Test-App-iOS */,
-				9A8C0CC5D6C4E2A0CCE118F9F0E5A1E7 /* Pods-Test-App-iOSUITests */,
+				23CBB791B4385F27EB0AB3BAF6B3797A /* Pods-Test-App-SDKs */,
+				1F5A92E82EFAF639051179C752FE19B1 /* Pods-Test-App-SDKsUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -1139,8 +1169,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
 				A8F28B6F34A4233FAFBB96D294166CC3 /* Pods */,
-				BACCE2DD90B751343ACAC62D05A22888 /* Products */,
-				785802F57474B87FF560E87043E8280A /* Targets Support Files */,
+				27691A75E39CD6CF009E5D8949DFC794 /* Products */,
+				77DF417351070BCD824375FD756DB18A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1165,24 +1195,6 @@
 				4C588C5DC57C8706F7341E2E6E615B6C /* MoPubAdapter.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9A8C0CC5D6C4E2A0CCE118F9F0E5A1E7 /* Pods-Test-App-iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A7980F0039617CA2FC53352599B663 /* Info.plist */,
-				6885BF6C81862635F4683716B995D22E /* Pods-Test-App-iOSUITests.modulemap */,
-				31A83461E9B9CE1E8EC511030A0C7523 /* Pods-Test-App-iOSUITests-acknowledgements.markdown */,
-				5EC9053607649AB51AF2A3C4D098B09C /* Pods-Test-App-iOSUITests-acknowledgements.plist */,
-				55E8E79571B58ABFAB0837F3DA89BD85 /* Pods-Test-App-iOSUITests-dummy.m */,
-				000A0E637B6CC21AE00D7059E014F630 /* Pods-Test-App-iOSUITests-frameworks.sh */,
-				B8CE2492FACEFC940381D9A3A668A48B /* Pods-Test-App-iOSUITests-resources.sh */,
-				8B5A127661664F4C0E828D2479A56D6C /* Pods-Test-App-iOSUITests-umbrella.h */,
-				DAE5A31CC5176CC7098C5659551DD2AD /* Pods-Test-App-iOSUITests.debug.xcconfig */,
-				77999BE996F1DCF317B569C9A9EE9107 /* Pods-Test-App-iOSUITests.release.xcconfig */,
-			);
-			name = "Pods-Test-App-iOSUITests";
-			path = "Target Support Files/Pods-Test-App-iOSUITests";
 			sourceTree = "<group>";
 		};
 		A8F28B6F34A4233FAFBB96D294166CC3 /* Pods */ = {
@@ -1218,18 +1230,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SOMYieldProbeSDK";
-			sourceTree = "<group>";
-		};
-		BACCE2DD90B751343ACAC62D05A22888 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EAE1ACC4C5AC497243ACFF945CAA6081 /* MoPub.framework */,
-				EFB26998A6E0A7E2C89EEB6F9649F820 /* Pods_Test_App_iOS.framework */,
-				2364F394F13AD2605E471B2D38DAB17F /* Pods_Test_App_iOSUITests.framework */,
-				92C91FA9E66FCC26F4F74CBB400F32CE /* SOMMediationSDK.framework */,
-				06791AA39D600CEFC2C372DC201612D1 /* SOMYieldProbeSDK.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C2419F0CD65AD7D317E172CC844A3C8C /* SOMYieldProbeSDK */ = {
@@ -1664,35 +1664,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		825AC01A5F319DD41492E33F4B6E040B /* Headers */ = {
+		384B29222B1ECC0D3F05C655B11A0803 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9D6C9CF8BAC4CB1D616337B9F7A548 /* SOMMediationSDK-umbrella.h in Headers */,
+				58F2C55FCE9777C325C4AB5B13C12A12 /* Pods-Test-App-SDKs-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9D0053981B6603605139A404BE6940 /* Headers */ = {
+		40028DAB85DFBDF24BC34419E1E36044 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD581F58F9FB970DD8566A52046C7F4 /* Pods-Test-App-iOSUITests-umbrella.h in Headers */,
+				AA6AB5937C1531BDE6277C624AD64CF7 /* SOMYieldProbeSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BBF2E095AF62BFB3BDE0311799D0EEE /* Headers */ = {
+		971FEDD541A981EE2E7F854DC128ED53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C55119E138D5B7780075694638F9B3 /* SOMYieldProbeSDK-umbrella.h in Headers */,
+				C500E6AD069CDE1C0C50D0BCE4F6094B /* Pods-Test-App-SDKsUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C01F3EE4319D67F76BEA05A85ADEA8A6 /* Headers */ = {
+		B66DCF38455132B44662DCD3380B915C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19CC4738257CF5A2C64EA5B388872D10 /* Pods-Test-App-iOS-umbrella.h in Headers */,
+				D7581CB75D7D39D07FA6584ACAC4C9EB /* SOMMediationSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1908,49 +1908,31 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D3F864B3E79363F8C4576C01455BCAE /* SOMMediationSDK */ = {
+		2AA4BFE794FD4150F0492C4C6AC99C4C /* Pods-Test-App-SDKsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B745390943FF89F9849CA9E34709B52 /* Build configuration list for PBXNativeTarget "SOMMediationSDK" */;
+			buildConfigurationList = CF13352C6C0296F908E7483D38009D2F /* Build configuration list for PBXNativeTarget "Pods-Test-App-SDKsUITests" */;
 			buildPhases = (
-				12BD7035129A80064F54137912709739 /* Sources */,
-				10022DF519E771E3817A5A490730E947 /* Frameworks */,
-				825AC01A5F319DD41492E33F4B6E040B /* Headers */,
+				12DB5125695D7C2F488D1FCABC98589A /* Sources */,
+				C17696F91AAA427C0E0566D54B655E98 /* Frameworks */,
+				971FEDD541A981EE2E7F854DC128ED53 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				04E4624B8104328927068A0BC7723C95 /* PBXTargetDependency */,
+				26A66139241BA70EAA17BB143AD2314B /* PBXTargetDependency */,
 			);
-			name = SOMMediationSDK;
-			productName = SOMMediationSDK;
-			productReference = 92C91FA9E66FCC26F4F74CBB400F32CE /* SOMMediationSDK.framework */;
+			name = "Pods-Test-App-SDKsUITests";
+			productName = "Pods-Test-App-SDKsUITests";
+			productReference = 0516342F71E18107E92601F36A5AD971 /* Pods_Test_App_SDKsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7DA0EDD8734F17FE6C592CC6290FD8AF /* Pods-Test-App-iOSUITests */ = {
+		2B1201C1722D2795F905082095BB1F6B /* SOMYieldProbeSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ECCC5E5BDC96747482EAE607724484B /* Build configuration list for PBXNativeTarget "Pods-Test-App-iOSUITests" */;
+			buildConfigurationList = 3604E698CBF4B04545C4DD9FBBDFF58E /* Build configuration list for PBXNativeTarget "SOMYieldProbeSDK" */;
 			buildPhases = (
-				7C47919D663AEC8DD8D7C11554325A9A /* Sources */,
-				50F09735526C86359B3C41649B7F6BDA /* Frameworks */,
-				8D9D0053981B6603605139A404BE6940 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8C84A6D31F56BC36AE121C30AC9C73D /* PBXTargetDependency */,
-			);
-			name = "Pods-Test-App-iOSUITests";
-			productName = "Pods-Test-App-iOSUITests";
-			productReference = 2364F394F13AD2605E471B2D38DAB17F /* Pods_Test_App_iOSUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AE115312E7E53FA184CDCE0E508600F9 /* SOMYieldProbeSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5BB35589E116E6CB2C2A946452E253 /* Build configuration list for PBXNativeTarget "SOMYieldProbeSDK" */;
-			buildPhases = (
-				ABEF48ABC9A67BFF999DA0D7D7646381 /* Sources */,
-				F6DF55AAB7B5E28306B0D84EF932CF7A /* Frameworks */,
-				9BBF2E095AF62BFB3BDE0311799D0EEE /* Headers */,
+				01F63DE05ED69B2D79ABFB2322860117 /* Sources */,
+				C6EB717C1440DD3FD048563C16953781 /* Frameworks */,
+				40028DAB85DFBDF24BC34419E1E36044 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1958,27 +1940,45 @@
 			);
 			name = SOMYieldProbeSDK;
 			productName = SOMYieldProbeSDK;
-			productReference = 06791AA39D600CEFC2C372DC201612D1 /* SOMYieldProbeSDK.framework */;
+			productReference = 90782634345CE31919F82E608DF7CCEE /* SOMYieldProbeSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E6FEF46208D9B8FA435B87B9B984F7FF /* Pods-Test-App-iOS */ = {
+		8BE231C80727008E033F2FB98685F548 /* Pods-Test-App-SDKs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B0208D0DCD8EB21CE505DE996CD69F9 /* Build configuration list for PBXNativeTarget "Pods-Test-App-iOS" */;
+			buildConfigurationList = 89535E785B9274C78634282AF2879731 /* Build configuration list for PBXNativeTarget "Pods-Test-App-SDKs" */;
 			buildPhases = (
-				BD560CAD91CF0BC5423ECE91BC6EF00F /* Sources */,
-				6AE1C93E5B3E2F26CE62DF680BCFE906 /* Frameworks */,
-				C01F3EE4319D67F76BEA05A85ADEA8A6 /* Headers */,
+				DC3CE255B23008E7E855B57FB81682DA /* Sources */,
+				EA69F9DAF87ECF0ED63C01AE289B33DF /* Frameworks */,
+				384B29222B1ECC0D3F05C655B11A0803 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F791C1C7F135B2BB02DD3DA728621167 /* PBXTargetDependency */,
-				A30AEE9A8AF2B234BA7F080F330DA6F5 /* PBXTargetDependency */,
-				738C3B2DD0B4225BB19BC1DCEDE1FC05 /* PBXTargetDependency */,
+				D9F25F590D8E233B524FA15E9A2BA83B /* PBXTargetDependency */,
+				AA5CBF3412E5AF32A86F9564C27C61B8 /* PBXTargetDependency */,
+				018B77CBF4A61CCAD70F43734ABBBD0F /* PBXTargetDependency */,
 			);
-			name = "Pods-Test-App-iOS";
-			productName = "Pods-Test-App-iOS";
-			productReference = EFB26998A6E0A7E2C89EEB6F9649F820 /* Pods_Test_App_iOS.framework */;
+			name = "Pods-Test-App-SDKs";
+			productName = "Pods-Test-App-SDKs";
+			productReference = 6E5DD6ED13906F8A381816080407E40A /* Pods_Test_App_SDKs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD1E66A10AF3470424DFD5FF5188B2CD /* SOMMediationSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65734B2F6C340813D83B39BCE4CF6F8 /* Build configuration list for PBXNativeTarget "SOMMediationSDK" */;
+			buildPhases = (
+				6A6FF8ED379A1C8C28FB25A24213159F /* Sources */,
+				41119EB75B6BEE9AB050E916D0C45B62 /* Frameworks */,
+				B66DCF38455132B44662DCD3380B915C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				477420F204B6D89688E9354D54BC71DC /* PBXTargetDependency */,
+			);
+			name = SOMMediationSDK;
+			productName = SOMMediationSDK;
+			productReference = 1C4C257D2D531AA328F9C4E1A59BA9EC /* SOMMediationSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4499854038E6CB3DD706894BC2DE81F /* mopub-ios-sdk */ = {
@@ -1996,7 +1996,7 @@
 			);
 			name = "mopub-ios-sdk";
 			productName = "mopub-ios-sdk";
-			productReference = EAE1ACC4C5AC497243ACFF945CAA6081 /* MoPub.framework */;
+			productReference = B4DFB5F7D5CBBEAFFDC47B3C34732610 /* MoPub.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2016,15 +2016,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BACCE2DD90B751343ACAC62D05A22888 /* Products */;
+			productRefGroup = 27691A75E39CD6CF009E5D8949DFC794 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F4499854038E6CB3DD706894BC2DE81F /* mopub-ios-sdk */,
-				E6FEF46208D9B8FA435B87B9B984F7FF /* Pods-Test-App-iOS */,
-				7DA0EDD8734F17FE6C592CC6290FD8AF /* Pods-Test-App-iOSUITests */,
-				2D3F864B3E79363F8C4576C01455BCAE /* SOMMediationSDK */,
-				AE115312E7E53FA184CDCE0E508600F9 /* SOMYieldProbeSDK */,
+				8BE231C80727008E033F2FB98685F548 /* Pods-Test-App-SDKs */,
+				2AA4BFE794FD4150F0492C4C6AC99C4C /* Pods-Test-App-SDKsUITests */,
+				DD1E66A10AF3470424DFD5FF5188B2CD /* SOMMediationSDK */,
+				2B1201C1722D2795F905082095BB1F6B /* SOMYieldProbeSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -2061,24 +2061,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12BD7035129A80064F54137912709739 /* Sources */ = {
+		01F63DE05ED69B2D79ABFB2322860117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92442976573AE89E50320871F48CB9E0 /* SOMAdapter.swift in Sources */,
-				40FEE42A990F8BE80946FFF11CA4EFA2 /* SOMAdapterAmazonDTB.swift in Sources */,
-				693D191542EAF361DA1EC965800E1B6C /* SOMAdapterLogger.swift in Sources */,
-				2502A80BD32B54FB19D2CD7D2E4B9B06 /* SOMAdapterSmaato.swift in Sources */,
-				1A40B63B8812FCFCDEA62BE4D25937FE /* SOMAdapterYieldlab.swift in Sources */,
-				D5ECE5EBE80374DB9956454FA5D8306A /* SOMMediationSDK-dummy.m in Sources */,
+				83FEF67D17E8D91A51D0B7CB187EA9C4 /* SOMAdSlot.swift in Sources */,
+				AB923821FB7086837FD331159AF016CA /* SOMBid.swift in Sources */,
+				3F333CA3BA0F5EAC8E8CFC727AB84937 /* SOMConfig.swift in Sources */,
+				8CF488675B1FCDDDE6B0921C41A28AA0 /* SOMConnectivity.swift in Sources */,
+				BEF07AFC64005652D7569DC86BE4A339 /* SOMGeolocation.swift in Sources */,
+				D2D3EA61BB29486C77EDA01E2ACB2622 /* SOMReachability.swift in Sources */,
+				9142A638D38CA044DF3E946A557ECBF3 /* SOMYieldProbe.swift in Sources */,
+				D6DAE2B62C1C158C044B5C0A7A84A13F /* SOMYieldProbeLogger.swift in Sources */,
+				A0C3A3DE0D8501223007C8C9731CDA1D /* SOMYieldProbeSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C47919D663AEC8DD8D7C11554325A9A /* Sources */ = {
+		12DB5125695D7C2F488D1FCABC98589A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3ECACD5C9729C0347697C80EE1AC63 /* Pods-Test-App-iOSUITests-dummy.m in Sources */,
+				0CB635412592EE85FA37EF832D66F760 /* Pods-Test-App-SDKsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6FF8ED379A1C8C28FB25A24213159F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FE9AA31F4C81688F793612E26798F /* SOMAdapter.swift in Sources */,
+				B48C53CF3EEEFA23EB1D22B7C0FD6460 /* SOMAdapterAmazonDTB.swift in Sources */,
+				9F23A8AFBB1F0908772084C9D04AE4A4 /* SOMAdapterLogger.swift in Sources */,
+				2569076DD6E11797F19E31D73703EC0B /* SOMAdapterSmaato.swift in Sources */,
+				62D2AE88BF7F57CA7B45BAE688F4CC70 /* SOMAdapterYieldlab.swift in Sources */,
+				7A1265ED5BF6A55BBE45EDDCE2CD7575 /* SOMMediationSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2262,102 +2278,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABEF48ABC9A67BFF999DA0D7D7646381 /* Sources */ = {
+		DC3CE255B23008E7E855B57FB81682DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FC6894E23290132158BBA9853D536C5 /* SOMAdSlot.swift in Sources */,
-				E3BA61E91BB551D8EAB28677E5D96004 /* SOMBid.swift in Sources */,
-				FF2DDC6474F8CE4FC6CB6CFF4AE3E150 /* SOMConfig.swift in Sources */,
-				685AA3686D4E26ED3D3E5D4FD5E7FCA7 /* SOMConnectivity.swift in Sources */,
-				71EC706DA6311293BD2AE4330A7B4AA8 /* SOMGeolocation.swift in Sources */,
-				9CE5FB27790E025F1E3DDC5FAE14734B /* SOMReachability.swift in Sources */,
-				8A77FD4ABC85A31317D49357A45F86EF /* SOMYieldProbe.swift in Sources */,
-				38809EF1B6FD19F1B9DA0B355DAE3CF5 /* SOMYieldProbeLogger.swift in Sources */,
-				C55D3D241A3B2188FBDDDCC729C769DA /* SOMYieldProbeSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD560CAD91CF0BC5423ECE91BC6EF00F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FC9E5F4603C20DCE5517133B8205781 /* Pods-Test-App-iOS-dummy.m in Sources */,
+				D083F6334CBBBA24D3F3517432085FFE /* Pods-Test-App-SDKs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04E4624B8104328927068A0BC7723C95 /* PBXTargetDependency */ = {
+		018B77CBF4A61CCAD70F43734ABBBD0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "mopub-ios-sdk";
 			target = F4499854038E6CB3DD706894BC2DE81F /* mopub-ios-sdk */;
-			targetProxy = 6B0FE27D652AB16CE50EB253311872F6 /* PBXContainerItemProxy */;
+			targetProxy = B170697CFE7243CE43413E4D07A3F61B /* PBXContainerItemProxy */;
 		};
-		738C3B2DD0B4225BB19BC1DCEDE1FC05 /* PBXTargetDependency */ = {
+		26A66139241BA70EAA17BB143AD2314B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Test-App-SDKs";
+			target = 8BE231C80727008E033F2FB98685F548 /* Pods-Test-App-SDKs */;
+			targetProxy = 919CD83D54B49E02AEAA2A0AFBCD60D8 /* PBXContainerItemProxy */;
+		};
+		477420F204B6D89688E9354D54BC71DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "mopub-ios-sdk";
 			target = F4499854038E6CB3DD706894BC2DE81F /* mopub-ios-sdk */;
-			targetProxy = D1254420820ACC61DC6E9216F9CFDCFE /* PBXContainerItemProxy */;
+			targetProxy = D206D9BECFC96D4A5B60C71F2304CB07 /* PBXContainerItemProxy */;
 		};
-		A30AEE9A8AF2B234BA7F080F330DA6F5 /* PBXTargetDependency */ = {
+		AA5CBF3412E5AF32A86F9564C27C61B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SOMYieldProbeSDK;
-			target = AE115312E7E53FA184CDCE0E508600F9 /* SOMYieldProbeSDK */;
-			targetProxy = CC8165B5E96C7E177D61470B90678C48 /* PBXContainerItemProxy */;
+			target = 2B1201C1722D2795F905082095BB1F6B /* SOMYieldProbeSDK */;
+			targetProxy = A178585E7E2EBF53F7AE35DF154E3F58 /* PBXContainerItemProxy */;
 		};
-		C8C84A6D31F56BC36AE121C30AC9C73D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Test-App-iOS";
-			target = E6FEF46208D9B8FA435B87B9B984F7FF /* Pods-Test-App-iOS */;
-			targetProxy = 6FA27B7635BAF821190EFDB1FBFE6A2C /* PBXContainerItemProxy */;
-		};
-		F791C1C7F135B2BB02DD3DA728621167 /* PBXTargetDependency */ = {
+		D9F25F590D8E233B524FA15E9A2BA83B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SOMMediationSDK;
-			target = 2D3F864B3E79363F8C4576C01455BCAE /* SOMMediationSDK */;
-			targetProxy = FC6144DCD60371FD77BAE58495B11E70 /* PBXContainerItemProxy */;
+			target = DD1E66A10AF3470424DFD5FF5188B2CD /* SOMMediationSDK */;
+			targetProxy = 01DE4FC78FE642FBA6E1BFF99FFF4CEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E48B0514B8E04A92B20BC1AFF8984CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 910A736EE7737E0F48F52CF2F2FFC9A8 /* SOMYieldProbeSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SOMYieldProbeSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK.modulemap";
-				PRODUCT_MODULE_NAME = SOMYieldProbeSDK;
-				PRODUCT_NAME = SOMYieldProbeSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		32DB69F3A09690B826134F660595D2CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91C41BDA725A8064A13AF4F3C97E2AB2 /* mopub-ios-sdk.xcconfig */;
@@ -2394,46 +2358,9 @@
 			};
 			name = Release;
 		};
-		4012404FCB9031233F35B53F5838948D /* Release */ = {
+		5A8CF5369ABD58115FA40D8AE128B140 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 910A736EE7737E0F48F52CF2F2FFC9A8 /* SOMYieldProbeSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SOMYieldProbeSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK.modulemap";
-				PRODUCT_MODULE_NAME = SOMYieldProbeSDK;
-				PRODUCT_NAME = SOMYieldProbeSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		51749D87237FEA09573E3062175FD246 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAE5A31CC5176CC7098C5659551DD2AD /* Pods-Test-App-iOSUITests.debug.xcconfig */;
+			baseConfigurationReference = C99345C02799291A5E20DDD86DC4841E /* Pods-Test-App-SDKs.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2446,7 +2373,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-iOSUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-SDKs/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2455,7 +2382,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-iOSUITests/Pods-Test-App-iOSUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-SDKs/Pods-Test-App-SDKs.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2463,11 +2390,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2567,12 +2496,10 @@
 			};
 			name = Debug;
 		};
-		80934718A4B22361510632F6EB3BAE50 /* Debug */ = {
+		760B2E096A359499FE11D2030F3F221B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07094EB6AA72A49F75F696BD37F24A38 /* Pods-Test-App-iOS.debug.xcconfig */;
+			baseConfigurationReference = 910A736EE7737E0F48F52CF2F2FFC9A8 /* SOMYieldProbeSDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2582,34 +2509,106 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOMYieldProbeSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-iOS/Pods-Test-App-iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK.modulemap";
+				PRODUCT_MODULE_NAME = SOMYieldProbeSDK;
+				PRODUCT_NAME = SOMYieldProbeSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A9BCBFA7E51D436621A05B4B37E9FD98 /* Release */ = {
+		8B34B51A7CD2ECB1254E586FA02D3EDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77999BE996F1DCF317B569C9A9EE9107 /* Pods-Test-App-iOSUITests.release.xcconfig */;
+			baseConfigurationReference = 910A736EE7737E0F48F52CF2F2FFC9A8 /* SOMYieldProbeSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOMYieldProbeSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SOMYieldProbeSDK/SOMYieldProbeSDK.modulemap";
+				PRODUCT_MODULE_NAME = SOMYieldProbeSDK;
+				PRODUCT_NAME = SOMYieldProbeSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		948CD03540F55D2FBAF1F5F0392862DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C034E89925FB01DEEBE4FEB1D64C4801 /* SOMMediationSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SOMMediationSDK/SOMMediationSDK-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SOMMediationSDK/SOMMediationSDK.modulemap";
+				PRODUCT_MODULE_NAME = SOMMediationSDK;
+				PRODUCT_NAME = SOMMediationSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8F8FC0E24ACFEAFF8F87C2DC9D1A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F306D90DB9B76354EE1783D901ECF9 /* Pods-Test-App-SDKsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2622,7 +2621,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-iOSUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-SDKsUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2631,7 +2630,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-iOSUITests/Pods-Test-App-iOSUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-SDKsUITests/Pods-Test-App-SDKsUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2640,11 +2639,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2704,7 +2702,86 @@
 			};
 			name = Release;
 		};
-		D825710FB8448A7F936249080BB6E754 /* Debug */ = {
+		D959C5D483E46A6F9B42994478CF8B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B8F579A181C77475259809F7432DFA /* Pods-Test-App-SDKs.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-SDKs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-SDKs/Pods-Test-App-SDKs.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED3A81D006E8FA8C7D535B6DF971FC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2784D858172E3604A651CD2D0D90E45 /* Pods-Test-App-SDKsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-SDKsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-SDKsUITests/Pods-Test-App-SDKsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9885A17633AD058C874F8280D313234 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C034E89925FB01DEEBE4FEB1D64C4801 /* SOMMediationSDK.xcconfig */;
 			buildSettings = {
@@ -2740,83 +2817,6 @@
 			};
 			name = Debug;
 		};
-		E02161E551296E3564C90060C94D6AC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C034E89925FB01DEEBE4FEB1D64C4801 /* SOMMediationSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SOMMediationSDK/SOMMediationSDK-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/SOMMediationSDK/SOMMediationSDK.modulemap";
-				PRODUCT_MODULE_NAME = SOMMediationSDK;
-				PRODUCT_NAME = SOMMediationSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F01041A180BD1674640EC4661AEC6941 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C29F36A8CD31DD79BDDB3393F4EAE16 /* Pods-Test-App-iOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test-App-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test-App-iOS/Pods-Test-App-iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2825,15 +2825,6 @@
 			buildConfigurations = (
 				712D04C5D67BC1D6866A97D9726017C4 /* Debug */,
 				32DB69F3A09690B826134F660595D2CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0ECCC5E5BDC96747482EAE607724484B /* Build configuration list for PBXNativeTarget "Pods-Test-App-iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				51749D87237FEA09573E3062175FD246 /* Debug */,
-				A9BCBFA7E51D436621A05B4B37E9FD98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2847,29 +2838,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5BB35589E116E6CB2C2A946452E253 /* Build configuration list for PBXNativeTarget "SOMYieldProbeSDK" */ = {
+		3604E698CBF4B04545C4DD9FBBDFF58E /* Build configuration list for PBXNativeTarget "SOMYieldProbeSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E48B0514B8E04A92B20BC1AFF8984CA /* Debug */,
-				4012404FCB9031233F35B53F5838948D /* Release */,
+				760B2E096A359499FE11D2030F3F221B /* Debug */,
+				8B34B51A7CD2ECB1254E586FA02D3EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B0208D0DCD8EB21CE505DE996CD69F9 /* Build configuration list for PBXNativeTarget "Pods-Test-App-iOS" */ = {
+		89535E785B9274C78634282AF2879731 /* Build configuration list for PBXNativeTarget "Pods-Test-App-SDKs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80934718A4B22361510632F6EB3BAE50 /* Debug */,
-				F01041A180BD1674640EC4661AEC6941 /* Release */,
+				D959C5D483E46A6F9B42994478CF8B6D /* Debug */,
+				5A8CF5369ABD58115FA40D8AE128B140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B745390943FF89F9849CA9E34709B52 /* Build configuration list for PBXNativeTarget "SOMMediationSDK" */ = {
+		C65734B2F6C340813D83B39BCE4CF6F8 /* Build configuration list for PBXNativeTarget "SOMMediationSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D825710FB8448A7F936249080BB6E754 /* Debug */,
-				E02161E551296E3564C90060C94D6AC1 /* Release */,
+				F9885A17633AD058C874F8280D313234 /* Debug */,
+				948CD03540F55D2FBAF1F5F0392862DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF13352C6C0296F908E7483D38009D2F /* Build configuration list for PBXNativeTarget "Pods-Test-App-SDKsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F8FC0E24ACFEAFF8F87C2DC9D1A44C /* Debug */,
+				ED3A81D006E8FA8C7D535B6DF971FC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

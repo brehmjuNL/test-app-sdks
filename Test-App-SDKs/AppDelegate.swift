@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Test-App-iOS
+//  Test-App-SDKs
 //
 //  Created by Julian Brehm on 2018-08-01.
 //  Copyright © 2018 SevenOne Media. All rights reserved.

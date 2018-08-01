@@ -1,6 +1,6 @@
 //
-//  Test_App_iOSUITests.swift
-//  Test-App-iOSUITests
+//  Test_App_SDKsUITests.swift
+//  Test-App-SDKsUITests
 //
 //  Created by Julian Brehm on 2018-08-01.
 //  Copyright © 2018 SevenOne Media. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Test_App_iOSUITests: XCTestCase {
+class Test_App_SDKsUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

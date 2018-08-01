@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE115312E7E53FA184CDCE0E508600F9"
+               BlueprintIdentifier = "2B1201C1722D2795F905082095BB1F6B"
                BlueprintName = "SOMYieldProbeSDK"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "SOMYieldProbeSDK.framework">
